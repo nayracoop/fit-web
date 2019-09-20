@@ -8,6 +8,7 @@
       <fit-portfolio></fit-portfolio>
       <fit-contact></fit-contact>
       <fit-footer></fit-footer>
+      <b-container></b-container>
   </div>
 </template>
 
@@ -36,6 +37,9 @@ export default {
 </script>
 
 <style lang="scss">
+
+  @import 'node_modules/bootstrap/scss/bootstrap';
+  @import 'node_modules/bootstrap-vue/src/index.scss';
   @import '../assets/css/main.css';
   @import '../assets/scss/main.scss';
 

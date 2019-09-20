@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "bootstrap-vue": "^1.5.1",
+    "bootstrap-vue": "^2.0.0-rc.28",
     "i18n": "^0.8.3",
     "popper.js": "^1.12.9",
     "vue": "^2.6.10",
