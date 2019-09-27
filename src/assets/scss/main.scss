@@ -1,5 +1,91 @@
 body{
     width:100%;
     height:100%;
-    background: black;
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bitter', serif
+}
+
+.social-links {
+    li {
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 1.25em;
+        a {
+            color: white;                
+        }
+    }
+}
+#technologies {
+    .logos-container {
+        background: #ededed;
+        overflow: hidden;
+        width: 100%;
+        height: 600px;
+        position: relative;
+        margin-left: 0;
+        div {
+            background: transparent;
+            position: absolute;
+            right: -100%;
+            //animation: movelogoX 5s linear infinite;
+            height: 35px;
+            width: 35px;
+            border-radius: 100%;
+            background: white;
+            box-shadow: 1px 1px 15px 1px rgba(29, 41, 78, 0.38);
+    
+            img {
+                top: 0;
+                width: 100%;
+                //animation: movelogoY 3s linear infinite;     
+            }
+        }
+    }
+}
+
+@for $i from 1 through 42 {
+    $t: 10+random(30);
+    .logo-#{$i} {
+      top: ($i * 2%);
+      position: absolute ;
+      animation: movelogoX #{$t}s linear infinite;
+      animation-delay: -#{random(20*1000) / 1000}s;
+    }
+  }
+
+footer {
+    a {
+        color: white!important;
+    }
+}
+
+@keyframes movelogoX {
+    0% {right: -50px;}
+    100% {right: 100%;}
+}
+
+
+
+@keyframes movelogoY {
+    0% {transform: translateY(-30%);}
+    50% {transform: translateY(30%);}
+    100% {transform: translateY(-30%);}
+}
+
+
+
+
+
+
+
+

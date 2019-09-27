@@ -1,3 +1,209 @@
 {
-    
+    "topSection": {
+        "title": "Tecnologías cooperativas para la innovación",
+        "content": "Somos las cooperativas TICS y queremos producir tecnología con un nuevo modelo de trabajo y de relaciones económicas sociales y solidarias.",
+        "btn-text": "Contactanos"
+    },
+    "about": {
+        "title": "Acerca del FIT",
+        "content": [
+            "Somos personas trabajadoras y dueñas de nuestras empresas, queremos innovación, compromiso, calidad y un mundo donde las tecnologías sean cooperativas.",
+            "Creamos tecnología para un futuro inclusivo. "
+        ]
+    },
+    "cooperativeWork": {
+        "title": "Trabajo cooperativo",
+        "content": "Generamos un espacio de trabajo intercooperativo donde ofrecemos a nuestros clientes desarrollos con posibilidades de escalar gracias a nuestra fuerza de trabajo colectiva.",
+        "imgAlt": "Grafico de metodología de trabajo"
+    },
+    "services": {
+        "title": "Servicios",
+        "content": "Bajada sección servicios",
+        "service": [
+            {
+                "title": "Capacitación y consultoría",
+                "imgAlt": "alt icono 1",
+                "subservice": [
+                    "Project managment",
+                    "Data science",
+                    "Soluciones integrales de business intelligence",
+                    "Aseguramiento de la calidad",
+                    "Consultoría tecnológica",
+                    "Capacitaciones docentes",
+                    "Cursos de programación",
+                    "Talleres de tecnología creativa"
+                ]
+            },
+            {
+                "title": "Diseño y comunicación",
+                "imgAlt": "alt icono 2",
+                "subservice": [
+                    "UX",
+                    "UI",
+                    "Diseño web",
+                    "Diseño interactivo",
+                    "Diseño editorial",
+                    "Diseño gráfico",
+                    "Branding",
+                    "Preproducción, producción y postproducción audiovisual",
+                    "Motion graphics",
+                    "Arte digital",
+                    "Fotografía",
+                    "Ilustraciones",
+                    "Comunicación digital",
+                    "Creación de contenido y corrección de estilo",
+                    "Impresiones generales",
+                    "VDP"
+                ]
+            },
+            {
+                "title": "Desarrollo",
+                "imgAlt": "alt icono 3",
+                "subservice": [
+                    "Project managment",
+                    "Mantenimiento web",
+                    "Desarrollo de software a medida",
+                    "Desarrollo web y mobile",
+                    "Realidad virtual",
+                    "Realidad aumentada",
+                    "E-commerce",
+                    "Implementación y desarrollo ERP",
+                    "CRM",
+                    "CMS",
+                    "IoT",
+                    "Data science"
+                ]
+            },
+            {
+                "title": "Infraestructura",
+                "imgAlt": "alt icono 4",
+                "subservice": [
+                    "Integraciones hardware y software",
+                    "Cableados estructurados",
+                    "Administración de servidores",
+                    "Infraestructura como código"
+                ]
+            }
+        ]
+    },
+    "technologies": {
+        "title": "Tecnologías",
+        "content": "Bajada sección tecnologías"
+    },
+    "cases": {
+        "title": "Casos de éxito",
+        "content": "Bajada sección casos de éxito",
+        "Customer": "Cliente",
+        "Area": "Area",
+        "Country": "País",
+        "Technologies": "Tecnologías",
+        "Co-ops": "Cooperativas involucradas",
+        "Team size": "Trabajadores involucrados",
+        "Service": "Servicio ofrecido",
+        "Description": "Descripción",
+        "case": [
+            {
+                "title": "Shopper Trolley",
+                "customer": "Inventor group",
+                "area": "Comercio",
+                "country": "Australia",
+                "description": "Desarrollo de un Mockup de una App Mobile (Android + iOS) para fidelización de clientes. A través de ella, se escanean códigos QR de productos y se obtienen premios o beneficios",
+                "service": "Desarrollo mobile a medida",
+                "technologies": ["React native"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "Producto propio",
+                "area": "Facturación electrónica",
+                "country": "Argentina",
+                "url": "http://aquiles.com.ar",
+                "description": "desarrollo y mantenimiento de sistema web de facturación electrónica",
+                "service": "Desarrollo y mantenimiento",
+                "technologies": ["Phyton / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
+                "coOpsQuantity": "2",
+                "teamSize": "4"
+            },
+            {
+                "title": "Betterez",
+                "customer": "Betterez Inc.",
+                "area": "Reservations & ticketing platform",
+                "country": "Canadá",
+                "url": ["betterez.com", "demo.bettterez.com"],
+                "description": "Desarrollo desde hace más de 5 años de la aplicación web que ha crecido en decenas de microservicios, API Rest y mobile apps",
+                "service": "Servicios ofrecidos: Equipo de desarrollo y  manejo de recursos permanente",
+                "technologies": ["Node.js", "Elixir", "VueJS", "MongoDB", "PostgreSQL", "Docker", "Redis", "AWS"],
+                "coOpsQuantity": "7 cooperativas",
+                "teamSize": "20"
+            },
+            {
+                "title": "ADC. Web de accesibilidad",
+                "customer": "Asociación por los Derechos Civiles",
+                "area": "Derechos civiles, investigación de políticas públicas",
+                "country": "Argentina",
+                "url": "http://accesibilidad-digital.adc.org.ar/",
+                "description": "Sitio Web para visibilizar la importancia de desarrollar aplicaciones de herramientas tecnológicas que resguarden el derecho a la plena autonomía e  inclusión ciudadana y social de las personas con discapacidad",
+                "service": "Diseño y desarrollo",
+                "technologies": ["HTML5", "Bootstrap"],
+                "coOpsQuantity": "2 cooperativas",
+                "teamSize": "9"
+            },
+            {
+                "title": "AWS",
+                "customer": "Backstory",
+                "area": "Agencia de publicidad",
+                "country": "Argentina",
+                "url": "http://backstory.com.ar",
+                "description": "Desarrollo, mantenimiento y administración de infraestructura",
+                "service": "Desarrollo, mantenimiento e infraestructura",
+                "technologies": ["AWS", "GNU/Linux", "EC2", "Cloud WebServers: entornos en Nginx", "Apache", "Node.js (PM2)", "Load Balance", "RDS"],
+                "coOpsQuantity": "2 cooperativas",
+                "teamSize": "4"
+            },
+            {
+                "title": "PSA",
+                "customer": "PSA - Industrias Pugliese S. A.",
+                "area": "Purificadores de agua",
+                "country": "Latinoamérica",
+                "description": "Desarrollo de una aplicación chat similar a WhatsApp con soporte web, Android y iOS.",
+                "service": "Equipo de desarrollo y mantenimiento permanente",
+                 "technologies": ["Python", "Elixir", "Ionic"],
+                "coOpsQuantity": "2 cooperativas",
+                "teamSize": "4"
+            },
+            {
+                "title": "Receptiviti",
+                "customer": "Receptiviti",
+                "area": "Análisis neurolingüístico de organizaciones a través de inteligencia artificial",
+                "country": "Canadá",
+                "url": "www.receptiviti.com",
+                "description": "Desarrollo de una web para analizar y visualizar los resultados del análisis neurolingüístico de las organizaciones",
+                "service": "Servicios ofrecidos: Equipo de desarrollo y manejo de recursos",
+                "technologies": ["Python", "React", "Docker", "AWS"],
+                "coOpsQuantity": "2 cooperativas",
+                "teamSize": "5"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contacto",
+        "content": "Bajada sección contacto"
+    },
+    "Open Menu": "Abrir menú",
+    "About FIT": "Acerca del FIT",
+    "Services": "Servicios",
+    "Technologies": "Tecnologías",
+    "Case studies": "Casos de éxito",
+    "Contact us": "Contactanos",
+    "This field is required": "Este campo es requerido",
+    "Email address": "Email",
+    "Enter your email address": "Ingrese su email",
+    "Company name": "Nombre empresa",
+    "Enter your company name": "Ingrese el nombre de su empresa",
+    "Name:": "Nombre completo",
+    "Enter your name": "Ingrese su nombre completo",
+    "¿What service are you looking for?": "¿Qué servicio está buscando?",
+    "Message:": "Mensaje",
+    "Enter your message": "Ingrese su mensaje",
+    "Send": "Enviar"
 }
