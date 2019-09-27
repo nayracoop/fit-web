@@ -2,7 +2,7 @@
 <section id="case-studies">
     <b-container>
         <b-row>
-            <b-col class="col-12 col-md-6">
+            <b-col class="col-12 col-md-6 section-heading">
                 <h2>{{ $t('cases.title') }}</h2>
                 <p>{{ $t('cases.content') }}</p>
             </b-col>
