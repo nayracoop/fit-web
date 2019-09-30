@@ -10,7 +10,7 @@
         <b-row>
             <b-col class="col-12 col-md-6 service mb-4 mt-4">
                 <img src="/src/assets/img/design.svg" :alt="$t('services.service[1].imgAlt')" class="mb-4" />
-                <h3>{{ $t('services.service[1].title') }}</h3>
+                <h3 class="mb-3">{{ $t('services.service[1].title') }}</h3>
                 <ul>
                     <li>{{ $t('services.service[1].subservice[0]') }} / {{ $t('services.service[1].subservice[1]') }}</li>
                     <li>{{ $t('services.service[1].subservice[2]') }}</li>
@@ -31,7 +31,7 @@
             </b-col>
             <b-col class="col-12 col-md-6 service mb-4 mt-4">
                 <img src="/src/assets/img/development.svg" :alt="$t('services.service[2].imgAlt')" class="mb-4" />
-                <h3>{{ $t('services.service[2].title') }}</h3>
+                <h3 class="mb-3">{{ $t('services.service[2].title') }}</h3>
                 <ul>
                     <li>{{ $t('services.service[2].subservice[0]') }}</li>
                     <li>{{ $t('services.service[2].subservice[1]') }}</li>
@@ -49,7 +49,7 @@
             </b-col>
             <b-col class="col-12 col-md-6 service mb-4 mt-4">
                 <img src="/src/assets/img/consultory.svg" :alt="$t('services.service[0].imgAlt')" class="mb-4" />
-                <h3>{{ $t('services.service[0].title') }}</h3>
+                <h3 class="mb-3">{{ $t('services.service[0].title') }}</h3>
                 <ul>
                     <li>{{ $t('services.service[0].subservice[0]') }}</li>
                     <li>{{ $t('services.service[0].subservice[1]') }}</li>
@@ -63,7 +63,7 @@
             </b-col>
             <b-col class="col-12 col-md-6 service mb-4 mt-4">
                 <img src="/src/assets/img/development.svg" :alt="$t('services.service[3].imgAlt')" class="mb-4" />
-                <h3>{{ $t('services.service[3].title') }}</h3>
+                <h3 class="mb-3">{{ $t('services.service[3].title') }}</h3>
                 <ul>
                     <li>{{ $t('services.service[3].subservice[0]') }}</li>
                     <li>{{ $t('services.service[3].subservice[1]') }}</li>

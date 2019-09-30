@@ -2,7 +2,7 @@
 <section id="about">
     <b-container>
         <b-row>
-            <b-col class="col-12 col-md-6">
+            <b-col class="col-12 col-md-6 mb-5">
                 <h2>{{ $t('about.title') }}</h2>
                 <p>{{ $t('about.content[0]') }}</p>
                 <p>{{ $t('about.content[1]') }}</p>
