@@ -37,11 +37,4 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '../assets/css/reset.css';
-  @import url('https://fonts.googleapis.com/css?family=Bitter|Montserrat&display=swap');
-  @import 'node_modules/bootstrap/scss/bootstrap';
-  @import 'node_modules/bootstrap-vue/src/index.scss';
-  @import '../assets/css/main.css';
-  @import '../assets/scss/main.scss';
-
 </style>
