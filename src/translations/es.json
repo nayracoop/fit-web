@@ -100,6 +100,7 @@
         "Co-ops": "Cooperativas involucradas",
         "Team size": "Trabajadores involucrados",
         "Service": "Servicio ofrecido",
+        "Project link": "Link del proyecto",
         "Description": "Descripción",
         "case": [
             {
@@ -114,11 +115,12 @@
                 "teamSize": "4"
             },
             {
-                "title": "Producto propio",
+                "title": "Aquiles",
+                "customer": "Producto propio",
                 "area": "Facturación electrónica",
                 "country": "Argentina",
                 "url": "http://aquiles.com.ar",
-                "description": "desarrollo y mantenimiento de sistema web de facturación electrónica",
+                "description": "Desarrollo y mantenimiento de sistema web de facturación electrónica",
                 "service": "Desarrollo y mantenimiento",
                 "technologies": ["Phyton / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
                 "coOpsQuantity": "2",
@@ -178,7 +180,7 @@
                 "country": "Canadá",
                 "url": "www.receptiviti.com",
                 "description": "Desarrollo de una web para analizar y visualizar los resultados del análisis neurolingüístico de las organizaciones",
-                "service": "Servicios ofrecidos: Equipo de desarrollo y manejo de recursos",
+                "service": "Equipo de desarrollo y manejo de recursos",
                 "technologies": ["Python", "React", "Docker", "AWS"],
                 "coOpsQuantity": "2 cooperativas",
                 "teamSize": "5"
@@ -200,10 +202,11 @@
     "Enter your email address": "Ingrese su email",
     "Company name": "Nombre empresa",
     "Enter your company name": "Ingrese el nombre de su empresa",
-    "Name:": "Nombre completo",
+    "Name": "Nombre completo",
     "Enter your name": "Ingrese su nombre completo",
     "¿What service are you looking for?": "¿Qué servicio está buscando?",
-    "Message:": "Mensaje",
+    "Message": "Mensaje",
     "Enter your message": "Ingrese su mensaje",
-    "Send": "Enviar"
+    "Send": "Enviar",
+    "FIT": "Flujo Intercooperativo de Trabajo"
 }

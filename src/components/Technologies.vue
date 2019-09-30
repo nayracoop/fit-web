@@ -2,7 +2,7 @@
 <section id="technologies">
     <b-container>
         <b-row>
-            <b-col class="col-12 col-md-6">
+            <b-col class="col-12 col-md-6 section-heading">
                 <h2>{{ $t('technologies.title') }}</h2>
                 <p>{{ $t('technologies.content') }}</p>
             </b-col>
@@ -10,7 +10,7 @@
     </b-container>
         <div class="logos-container">
                 <div v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
-                    <img :src="'./src/assets/img/tech-logos/'+icon.src" :alt="icon.title" height="20px"/>
+                    <img :src="'/src/assets/img/tech-logos/'+icon.src" :alt="icon.title" height="20px"/>
                 </div>
         </div>
 </section>
