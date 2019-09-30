@@ -51,7 +51,10 @@ export default {
   },
   methods: {
     setLocale (lang) {
-      this.$i18n.locale = lang
+      if (lang === 'es') {
+        this.$router.push({ name: 'main' })
+        this.$i18n.locale = lang
+      } else this.$router.push({ name: 'locale', params: { lang } })
     }
   }
 }
