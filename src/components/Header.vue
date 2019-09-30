@@ -4,7 +4,7 @@
       <b-row>
         <b-col>
           <b-navbar toggleable="lg" type="dark">
-            <b-navbar-brand href="#top-section">
+            <b-navbar-brand href="#cover">
               <h1>
                 <b class="sr-only"><abbr title="Flujo Intercooperativo de trabajo">FIT</abbr> - Flujo Intercooperativo de Trabajo</b>
                 <img src="../assets/img/logo.svg" alt="FIT logo" class="fit-logo" />

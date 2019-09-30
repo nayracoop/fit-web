@@ -1,11 +1,11 @@
 <template>
-    <div id="top-section" class="min-vh-100 d-flex flex-column align-items-center align-content-center">
+    <div id="cover" class="min-vh-100 d-flex flex-column align-items-center align-content-center">
         <b-container>
                 <b-row class="min-vh-100 w-100"> 
                     <b-col class="col-12 col-md-6 mt-auto">
-                        <h2 class="mb-4">{{ $t('topSection.title') }}</h2>
-                        <p class="mb-4">{{ $t('topSection.content') }}</p>
-                        <b-button href="#">{{ $t('topSection.btn-text') }}</b-button>
+                        <h2 class="mb-4">{{ $t('cover.title') }}</h2>
+                        <p class="mb-4">{{ $t('cover.content') }}</p>
+                        <b-button href="#">{{ $t('cover.btn-text') }}</b-button>
                     </b-col>
                     <b-col class="col-12 mt-auto">
                         <ul class="social-links">

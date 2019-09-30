@@ -1,3 +1,5 @@
+@import "variables";
+
 body {
     width: 100%;
     height: 100%;
@@ -45,6 +47,18 @@ h3 {
 
 .section-heading {
     margin-bottom: 30px;
+    h2 {
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            height: 4px;
+            width: 40px;
+            border-radius: 5px;
+            left: 0;
+            bottom: -10px;
+        }
+    }
     p {
         display: none;
     }
@@ -83,11 +97,19 @@ header {
             li.nav-item {
                 a.nav-link {
                     color: #000;
+                    &:hover {
+                        border-bottom: 1px solid #000;
+                        color: #000;
+                    }
                 }
                 &.cta-item {
-                    a {
+                    a.nav-link {
                         border: 1px solid black;
                         background: transparent;
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
                     }
                 }
             }
@@ -97,18 +119,28 @@ header {
         padding: 0;
 
         li.nav-item {
-            margin: 0 10px;
+            margin: 0 15px;
 
             &.cta-item {
                 color: white;
-                a {
-                    border: 1px solid black;
-                    background: black;}
+                a.nav-link {
+                    border: 1px solid white;
+                    background: transparent;
+                    padding: .5rem 1rem;
+                    &:hover {
+                        background: white;
+                        color: #000;
+                    }
+                }
             }
 
             a.nav-link {
                 color: white;
-                padding: 0.5rem 1rem
+                padding: 0.5rem 0;
+                &:hover {
+                    border-bottom: 1px solid #fff;
+                    color: #fff;
+                }
             }
 
             &.active {
@@ -127,7 +159,7 @@ header {
     }
 }
 
-#top-section {
+#cover {
     background-image: url('/src/assets/img/main-bg.jpg');
     color: #000;
 
@@ -145,6 +177,19 @@ header {
 }
 
 #about {
+    h2 {
+        position: relative;
+        margin-bottom: 30px;
+        &::after {
+            content: '';
+            position: absolute;
+            height: 4px;
+            width: 40px;
+            left: 0;
+            bottom: -10px;
+            background-color: $color-blue;
+        }
+    }
     background-image: url('/src/assets/img/about-bg.svg');
     background-size: 35%;
     background-position: 85% center;
@@ -152,9 +197,33 @@ header {
 }
 
 #services {
+    .section-heading {
+        h2 {
+            &::after {
+                background: $color-magenta;
+            }
+        }
+    }
     .service {
         img {
             height: 80px;
+        }
+        ul {
+            li {
+                position: relative;
+                padding-left: 15px;
+                margin-bottom: 5px;
+                &::before {
+                    content: '';
+                    width: 5px;
+                    height: 5px;
+                    background: $color-magenta;
+                    position: absolute;
+                    border-radius: 5px;
+                    top: 10px;
+                    left: 0;
+                }
+            }
         }
     }
 }
@@ -205,18 +274,45 @@ header {
 }
 
 #case-studies {
-    .case-details {
+    .section-heading {
+        h2 {
+            &::after {
+                background: $color-yellow;
+            }
+        }
+    }
+    .project {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        h3 {
+            display: inline-block;
+        }
+        border-bottom: 1px dashed lightgrey;
+        &:last-of-type() {
+            border-bottom: none;
+        }
         ul {
             display: flex;
             flex-wrap: wrap;
-            border-top: 1px dashed lightgrey;
-            padding-top: 1rem;
+            margin-top: 1rem;
             li{ 
                 flex-basis: calc(25% - 15px);
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 15px;
+                position: relative;
+                padding-left: 15px;
                 margin-right: 15px;
+                &::before {
+                    content: '';
+                    width: 5px;
+                    height: 5px;
+                    background: $color-yellow;
+                    position: absolute;
+                    border-radius: 5px;
+                    top: 12px;
+                    left: 0;
+                }
                 span {
                     font-weight: 600;
                     font-size: 1.15rem;
@@ -225,9 +321,16 @@ header {
         }
     }
 }
-#contact {
-    form {
 
+#contact {
+    .section-heading {
+        h2 {
+            &::after {
+                background: $color-indigo;
+            }
+        }
+    }
+    form {
         input,
         textarea,
         select {
@@ -263,6 +366,13 @@ footer {
 
             li {
                 margin: 0 15px;
+                a {
+                    border-bottom: 1px solid transparent;
+                    &:hover {
+                        color: #000;
+                        border-bottom: 1px solid #000;
+                    }
+                }
             }
         }
     }
@@ -292,7 +402,7 @@ footer {
     }
 }
 @media all and (max-width: 450px) {
-    #top-section {
+    #cover {
         h2 {
             padding-top: 60px;
         }
@@ -343,13 +453,21 @@ footer {
 
                     a.nav-link {
                         color: #000;
-                        font-size: 1.125em;
+                        font-size: 1.25rem;
+                        border-bottom: 1px solid transparent;
+                        &:hover {
+                            color: #000;
+                            border-bottom: 1px solid #000;
+                        }
                     }
 
                     &.cta-item {
                         border: none;
-                        background: transparent;
                         color: black;
+                        a.nav-link {
+                            background: transparent;
+                            padding: .5rem 1rem;
+                        }
                     }
                 }
             }
@@ -365,6 +483,16 @@ footer {
                 background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 15 15' style='enable-background:new 0 0 15 15;' xml:space='preserve'%3E%3Cg%3E%3Crect x='6.6' y='0' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -3.1066 7.5)' width='1.9' height='15'/%3E%3C/g%3E%3Cg%3E%3Crect x='0' y='6.6' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -3.1066 7.5)' width='15' height='1.9'/%3E%3C/g%3E%3C/svg%3E%0A")!important;
             }
         }
+        }
+    }
+
+    #case-studies {
+        .case-details {
+            ul {
+                li {
+                    flex-basis: 100%;
+                }
+            }
         }
     }
 }

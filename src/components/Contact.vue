@@ -3,7 +3,7 @@
     <b-container>
         <b-row>
             <b-col class="col-12 section-heading">
-                <h2>{{ $t('contact.title') }}</h2>
+                <h2 class="pb-2">{{ $t('contact.title') }}</h2>
                 <p>{{ $t('contact.content') }}</p>
             </b-col>
             <b-col>

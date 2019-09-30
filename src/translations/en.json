@@ -1,11 +1,5 @@
 {
-    "Open Menu": "Abrir menú",
-    "About FIT": "Acerca del FIT",
-    "Services": "Servicios",
-    "Technologies": "Tecnologías",
-    "Case studies": "Casos de éxito",
-    "Contact us": "Contactanos",
-    "topSection": {
+    "cover": {
         "title": "Cooperative Technology for the innovation",
         "content": "We are the TICS cooperative and we want to make technology with a new work model and new social economics and solidarities relationships.",
         "btn-text": "Contact us"
