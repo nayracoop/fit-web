@@ -45,6 +45,9 @@
               </ul>
             </div>
           </b-col>
+          <b-col class="col-12 col-md-4 cont-img">
+            <img src="/src/assets/img/cases/shopper-trolley.png" alt="shopper trolley logo" />
+          </b-col>
       </b-row>
 
       
@@ -94,7 +97,7 @@
             </div>
           </b-col>
           <b-col class="col-12 col-md-4 cont-img">
-            <img :src="'/src/assets/img/cases/'+$t('cases.case[2].imgSrc')" :alt="$t('cases.case[2].imgAlt')" />
+            <img src="/src/assets/img/cases/betterez.png" alt="betterez logo" />
           </b-col>
       </b-row>
 
@@ -142,7 +145,7 @@
             </div>
           </b-col>
           <b-col class="col-12 col-md-4 cont-img">
-            <img :src="'/src/assets/img/cases/'+$t('cases.case[1].imgSrc')" :alt="$t('cases.case[1].imgAlt')" />
+            <img src="/src/assets/img/cases/aquiles.png" alt="aquiles logo" />
           </b-col>
       </b-row>
 
@@ -187,7 +190,7 @@
             </div>
           </b-col>
           <b-col class="col-12 col-md-4 cont-img">
-            <img :src="'/src/assets/img/cases/'+$t('cases.case[3].imgSrc')" :alt="$t('cases.case[3].imgAlt')" />
+            <img src="/src/assets/img/cases/adc.png" alt="adc logo" />
           </b-col>
       </b-row>
       
@@ -238,7 +241,7 @@
             </div>
           </b-col>
           <b-col class="col-12 col-md-4 cont-img">
-            <img :src="'/src/assets/img/cases/'+$t('cases.case[4].imgSrc')" :alt="$t('cases.case[4].imgAlt')" />
+            <img src="/src/assets/img/cases/backstory.png" alt="backstory logo" />
           </b-col>
       </b-row>
       
@@ -280,7 +283,7 @@
             </div>
           </b-col>
           <b-col class="col-12 col-md-4 cont-img">
-            <img :src="'/src/assets/img/cases/'+$t('cases.case[5].imgSrc')" :alt="$t('cases.case[5].imgAlt')" />
+            <img src="/src/assets/img/cases/psa.png" alt="psa logo" />
           </b-col>
       </b-row>
       
@@ -327,7 +330,7 @@
             </div>
           </b-col>
           <b-col class="col-12 col-md-4 cont-img">
-            <img :src="'/src/assets/img/cases/'+$t('cases.case[6].imgSrc')" :alt="$t('cases.case[6].imgAlt')" />
+            <img src="/src/assets/img/cases/receptiviti.png" alt="recptiviti logo" />
           </b-col>
       </b-row>
 
@@ -382,39 +385,5 @@
 
 <script>
 export default {
-  data () {
-    return {
-      /* caseImg: [
-        {
-          alt: 'shopper trolley',
-          src: ''
-        },
-        {
-          alt: 'Aquiles logo',
-          src: 'aquiles.png'
-        },
-        {
-          alt: 'Betterez logo',
-          src: 'betterez.png'
-        },
-        {
-          alt: 'Asociación por los Derechos Civiles logo',
-          src: 'adc.png'
-        },
-        {
-          alt: 'Backstory logo',
-          src: 'backstory.png'
-        },
-        {
-          alt: 'PSA logo',
-          src: 'psa.png'
-        },
-        {
-          alt: 'Receptiviti logo',
-          src: 'receptiviti.png'
-        }
-      ] */
-    }
-  }
 }
 </script>

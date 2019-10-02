@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.85rem;
+    font-size: 2rem;
 }
 
 #about,
@@ -40,13 +40,13 @@ h3 {
 #technologies,
 #case-studies,
 #contact {
-    padding-top: 65px;
-    padding-bottom: 65px;
-    border-bottom: 1px solid lightgrey;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.3);
 }
 
 .section-heading {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     h2 {
         position: relative;
         &::after {
@@ -84,7 +84,7 @@ h3 {
 }
 
 .fit-logo {
-    height: 65px;
+    height: 60px;
 }
 
 header {
@@ -112,6 +112,14 @@ header {
                         }
                     }
                 }
+            }
+        }
+    }
+    nav {
+        .navbar-brand {
+            h1 {
+                font-size: 12px;
+                margin-bottom: 0;
             }
         }
     }
@@ -174,17 +182,28 @@ header {
         border-top-right-radius: 100%;
         border-bottom-right-radius: 100%;
     }
+    h2 {
+        font-size: 2.85rem;
+    }
+    p {
+        font-size: 1.125rem;
+    }
+    .btn {
+        font-size: 1.125rem;
+        padding: .75rem 2.75rem;
+    }
 }
 
 #about {
     h2 {
         position: relative;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         &::after {
             content: '';
             position: absolute;
             height: 4px;
-            width: 40px;
+            width: 65px;
+            border-radius: 5px;
             left: 0;
             bottom: -10px;
             background-color: $color-blue;
@@ -229,6 +248,10 @@ header {
 }
 
 #technologies {
+    .tech-logo {
+        max-height: 50px;
+        filter: grayscale(.95);
+    }
     .logos-container {
         //background: #ededed;
         overflow: hidden;
@@ -257,6 +280,7 @@ header {
                 width: 100%;
                 height: auto;
                 //animation: movelogoY 3s linear infinite;     
+                max-height: 40px;
             }
         }
 
@@ -278,7 +302,7 @@ header {
         h2 {
             &::after {
                 //background: $color-yellow;
-                background: #d5a239;
+                background: $color-indigo;
             }
         }
     }
@@ -291,13 +315,10 @@ header {
             display: flex;
             box-shadow:0 3px 7px -1px rgba(0, 0, 0, 0.1);
             .project-info {
-                h3 {
-                    font-size: 2.25rem;
-                }
                 span.project-service {
                     text-transform: uppercase;
                     font-weight: 600;
-                    color: #d5a239;
+                    color: $color-indigo;
                     display: block;
                     margin-bottom: .5rem;
                     font-size: 12.5px!important;
@@ -305,7 +326,7 @@ header {
                 .project-description {
                     font-size: 15px;
                     padding-bottom: 1rem;
-                    border-bottom: 1px solid #d3d3d34d;
+                    border-bottom: 1px solid rgba(211, 211, 211, 0.3);
                 }
                 .case-details {
                     ul {
@@ -327,12 +348,12 @@ header {
                                 border-radius: 5px;
                                 top: 10px;
                                 left: 0;
-                                background: #d5a239;
+                                background: $color-indigo;
                             }
                             span {
                                 font-size: 14px;
                                 margin-right: 2px;
-                                border-bottom: 1px solid #d5a239;
+                                //border-bottom: 1px solid #d5a239;
                                 font-weight: 600;
                             }
                         }
@@ -348,7 +369,7 @@ header {
                     width: 100%;
                     max-height: 420px;
                     object-fit: none;
-                    filter: grayscale(1);
+                    //filter: grayscale(1);
                     border-top-right-radius: 5px;
                     border-bottom-right-radius: 5px;
                 }
@@ -481,11 +502,19 @@ footer {
         font-size: 2rem;
     }
     h3 {
-        font-size: 1.75rem;
+        font-size: 1.65rem;
     }
     #cover {
         h2 {
             padding-top: 60px;
+            font-size: 1.85rem;
+        }
+        p {
+            font-size: .925rem;
+        }
+        .btn {
+            font-size: 1rem;
+            padding: .5rem 2.75rem;
         }
     }
 
@@ -507,6 +536,20 @@ footer {
     #about {
         background-image: none;
     }
+    
+    #case-studies {
+        .project-alternative {
+            .case-details {
+                border-bottom: 1px solid rgba(211, 211, 211, 0.3);
+            }
+            .cont-img {
+                img {
+                    max-height: 150px;
+                    transform: scale(.8);
+                }
+            }
+        }
+    }
 
     footer {
         nav {
@@ -522,15 +565,15 @@ footer {
 }
 
 @media all and (max-width:991px) {
+    .fit-logo {
+        height: 50px;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
     header {
         background: white;
-
         nav {
-            .navbar-brand {
-                .fit-logo {
-                    height: 50px;
-                }
-            }
             #nav-collapse {
                 height: 100vh;
                 transition: none;

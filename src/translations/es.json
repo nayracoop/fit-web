@@ -112,9 +112,7 @@
                 "service": "Desarrollo mobile a medida",
                 "technologies": ["React native"],
                 "coOpsQuantity": "2",
-                "teamSize": "4",
-                "imgSrc": "",
-                "imgAlt": ""
+                "teamSize": "4"
             },
             {
                 "title": "Aquiles",
@@ -126,9 +124,7 @@
                 "service": "Desarrollo y mantenimiento",
                 "technologies": ["Phyton / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
                 "coOpsQuantity": "2",
-                "teamSize": "4",
-                "imgSrc": "aquiles.png",
-                "imgAlt": "aquiles logo"
+                "teamSize": "4"
             },
             {
                 "title": "Betterez",
@@ -140,9 +136,7 @@
                 "service": "Equipo de desarrollo y  manejo de recursos permanente",
                 "technologies": ["Node.js", "Elixir", "VueJS", "MongoDB", "PostgreSQL", "Docker", "Redis", "AWS"],
                 "coOpsQuantity": "7",
-                "teamSize": "20",
-                "imgSrc": "betterez.png",
-                "imgAlt": "betterez logo"
+                "teamSize": "20"
             },
             {
                 "title": "ADC. Web de accesibilidad",
@@ -154,9 +148,7 @@
                 "service": "Diseño y desarrollo",
                 "technologies": ["HTML5", "Bootstrap"],
                 "coOpsQuantity": "2",
-                "teamSize": "9",
-                "imgSrc": "adc.png",
-                "imgAlt": "adc logo"
+                "teamSize": "9"
             },
             {
                 "title": "AWS",
@@ -168,9 +160,7 @@
                 "service": "Desarrollo, mantenimiento e infraestructura",
                 "technologies": ["AWS", "GNU/Linux", "EC2", "Cloud WebServers: entornos en Nginx", "Apache", "Node.js (PM2)", "Load Balance", "RDS"],
                 "coOpsQuantity": "2",
-                "teamSize": "4",
-                "imgSrc": "backstory.png",
-                "imgAlt": "backstory logo"
+                "teamSize": "4"
             },
             {
                 "title": "PSA",
@@ -181,9 +171,7 @@
                 "service": "Equipo de desarrollo y mantenimiento permanente",
                  "technologies": ["Python", "Elixir", "Ionic"],
                 "coOpsQuantity": "2",
-                "teamSize": "4",
-                "imgSrc": "psa.png",
-                "imgAlt": "psa logo"
+                "teamSize": "4"
             },
             {
                 "title": "Receptiviti",
@@ -195,9 +183,7 @@
                 "service": "Equipo de desarrollo y manejo de recursos",
                 "technologies": ["Python", "React", "Docker", "AWS"],
                 "coOpsQuantity": "2",
-                "teamSize": "5",
-                "imgSrc": "receptiviti.png",
-                "imgAlt": "receptiviti logo"
+                "teamSize": "5"
             }
         ]
     },

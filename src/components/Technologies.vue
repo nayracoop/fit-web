@@ -7,12 +7,17 @@
                 <p>{{ $t('technologies.content') }}</p>
             </b-col>
         </b-row>
+        <b-row>
+          <div class="col-md-1 col-3 d-flex align-items-center mb-5 justify-content-center" v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
+              <img class="tech-logo" :src="'/src/assets/img/tech-logos/'+icon.src" :alt="icon.title" />
+          </div>
+        </b-row>
     </b-container>
-        <div class="logos-container">
+        <!--div class="logos-container">
                 <div v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
                     <img :src="'/src/assets/img/tech-logos/'+icon.src" :alt="icon.title" height="20px"/>
                 </div>
-        </div>
+        </div-->
 </section>
 </template>
 
@@ -24,11 +29,51 @@ export default {
       icons: [
         {
           title: '',
-          src: 'ar-studio.svg'
+          src: 'angular-icon.svg'
+        },
+        {
+          title: '',
+          src: 'nodejs.svg'
+        },
+        {
+          title: '',
+          src: 'nativescript.svg'
+        },
+        {
+          title: '',
+          src: 'react.svg'
+        },
+        {
+          title: '',
+          src: 'ionic.svg'
+        },
+        {
+          title: '',
+          src: 'mongodb.svg'
+        },
+        {
+          title: '',
+          src: 'django.svg'
         },
         {
           title: '',
           src: 'aws.svg'
+        },
+        {
+          title: '',
+          src: 'express.svg'
+        },
+        {
+          title: '',
+          src: 'drupal.svg'
+        },
+        {
+          title: '',
+          src: 'elixir.png'
+        },
+        {
+          title: '',
+          src: 'python.svg'
         },
         {
           title: '',
@@ -44,23 +89,7 @@ export default {
         },
         {
           title: '',
-          src: 'django.svg'
-        },
-        {
-          title: '',
           src: 'docker.svg'
-        },
-        {
-          title: '',
-          src: 'drupal.svg'
-        },
-        {
-          title: '',
-          src: 'elixir.png'
-        },
-        {
-          title: '',
-          src: 'express.svg'
         },
         {
           title: '',
@@ -69,6 +98,10 @@ export default {
         {
           title: '',
           src: 'firebird.svg'
+        },
+        {
+          title: '',
+          src: 'java.svg'
         },
         {
           title: '',
@@ -84,14 +117,6 @@ export default {
         },
         {
           title: '',
-          src: 'ionic.svg'
-        },
-        {
-          title: '',
-          src: 'java.svg'
-        },
-        {
-          title: '',
           src: 'kubernetes.svg'
         },
         {
@@ -100,23 +125,11 @@ export default {
         },
         {
           title: '',
-          src: 'mongodb.svg'
-        },
-        {
-          title: '',
           src: 'mysql.svg'
         },
         {
           title: '',
-          src: 'nativescript.svg'
-        },
-        {
-          title: '',
           src: 'net.png'
-        },
-        {
-          title: '',
-          src: 'nodejs.svg'
         },
         {
           title: '',
@@ -125,14 +138,6 @@ export default {
         {
           title: '',
           src: 'postgresql.svg'
-        },
-        {
-          title: '',
-          src: 'python.svg'
-        },
-        {
-          title: '',
-          src: 'react.svg'
         },
         {
           title: '',
@@ -181,10 +186,6 @@ export default {
         {
           title: '',
           src: 'android-studio.svg'
-        },
-        {
-          title: '',
-          src: 'angular-icon.svg'
         },
         {
           title: '',

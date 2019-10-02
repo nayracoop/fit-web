@@ -62,7 +62,7 @@
                 </ul>
             </b-col>
             <b-col class="col-12 col-md-6 service mb-4 mt-4">
-                <img src="/src/assets/img/development.svg" :alt="$t('services.service[3].imgAlt')" class="mb-4" />
+                <img src="/src/assets/img/infrastructure.svg" :alt="$t('services.service[3].imgAlt')" class="mb-4" />
                 <h3 class="mb-3">{{ $t('services.service[3].title') }}</h3>
                 <ul>
                     <li>{{ $t('services.service[3].subservice[0]') }}</li>
