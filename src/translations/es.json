@@ -112,7 +112,9 @@
                 "service": "Desarrollo mobile a medida",
                 "technologies": ["React native"],
                 "coOpsQuantity": "2",
-                "teamSize": "4"
+                "teamSize": "4",
+                "imgSrc": "",
+                "imgAlt": ""
             },
             {
                 "title": "Aquiles",
@@ -124,7 +126,9 @@
                 "service": "Desarrollo y mantenimiento",
                 "technologies": ["Phyton / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
                 "coOpsQuantity": "2",
-                "teamSize": "4"
+                "teamSize": "4",
+                "imgSrc": "aquiles.png",
+                "imgAlt": "aquiles logo"
             },
             {
                 "title": "Betterez",
@@ -136,19 +140,23 @@
                 "service": "Equipo de desarrollo y  manejo de recursos permanente",
                 "technologies": ["Node.js", "Elixir", "VueJS", "MongoDB", "PostgreSQL", "Docker", "Redis", "AWS"],
                 "coOpsQuantity": "7",
-                "teamSize": "20"
+                "teamSize": "20",
+                "imgSrc": "betterez.png",
+                "imgAlt": "betterez logo"
             },
             {
                 "title": "ADC. Web de accesibilidad",
                 "customer": "Asociación por los Derechos Civiles",
                 "area": "Derechos civiles, investigación de políticas públicas",
                 "country": "Argentina",
-                "url": "https://www.accesibilidad-digital.adc.org.ar/",
+                "url": "http://accesibilidad-digital.adc.org.ar/",
                 "description": "Sitio Web para visibilizar la importancia de desarrollar aplicaciones de herramientas tecnológicas que resguarden el derecho a la plena autonomía e  inclusión ciudadana y social de las personas con discapacidad.",
                 "service": "Diseño y desarrollo",
                 "technologies": ["HTML5", "Bootstrap"],
                 "coOpsQuantity": "2",
-                "teamSize": "9"
+                "teamSize": "9",
+                "imgSrc": "adc.png",
+                "imgAlt": "adc logo"
             },
             {
                 "title": "AWS",
@@ -160,7 +168,9 @@
                 "service": "Desarrollo, mantenimiento e infraestructura",
                 "technologies": ["AWS", "GNU/Linux", "EC2", "Cloud WebServers: entornos en Nginx", "Apache", "Node.js (PM2)", "Load Balance", "RDS"],
                 "coOpsQuantity": "2",
-                "teamSize": "4"
+                "teamSize": "4",
+                "imgSrc": "backstory.png",
+                "imgAlt": "backstory logo"
             },
             {
                 "title": "PSA",
@@ -171,7 +181,9 @@
                 "service": "Equipo de desarrollo y mantenimiento permanente",
                  "technologies": ["Python", "Elixir", "Ionic"],
                 "coOpsQuantity": "2",
-                "teamSize": "4"
+                "teamSize": "4",
+                "imgSrc": "psa.png",
+                "imgAlt": "psa logo"
             },
             {
                 "title": "Receptiviti",
@@ -183,7 +195,9 @@
                 "service": "Equipo de desarrollo y manejo de recursos",
                 "technologies": ["Python", "React", "Docker", "AWS"],
                 "coOpsQuantity": "2",
-                "teamSize": "5"
+                "teamSize": "5",
+                "imgSrc": "receptiviti.png",
+                "imgAlt": "receptiviti logo"
             }
         ]
     },
@@ -191,7 +205,7 @@
         "title": "Contacto",
         "content": "Bajada sección contacto"
     },
-    "Open Menu": "Abrir menú",
+    "Open": "Abrir",
     "About FIT": "Acerca del FIT",
     "Services": "Servicios",
     "Technologies": "Tecnologías",
@@ -208,5 +222,8 @@
     "Message": "Mensaje",
     "Enter your message": "Ingrese su mensaje",
     "Send": "Enviar",
-    "FIT": "Flujo Intercooperativo de Trabajo"
+    "FIT": "Flujo Intercooperativo de Trabajo",
+    "Message sent. Thank you!": "Mensaje enviado. ¡Muchas gracias!",
+    "An error occurred while trying to send your message.": "Ocurrió un error al intentar enviar su mensaje.",
+    "Error sending message": "Error al enviar el mensaje"
 }

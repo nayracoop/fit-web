@@ -12,7 +12,7 @@
             </b-navbar-brand>
 
             <b-navbar-toggle id="navbar-toggle" target="nav-collapse"></b-navbar-toggle>
-            <label class="sr-only" for="navbar-toggle">{{ $t('Open menu') }}</label>
+            <label class="sr-only" for="navbar-toggle">{{ $t('Open') }}</label>
 
             <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav class="ml-auto">

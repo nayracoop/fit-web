@@ -1,6 +1,8 @@
 import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
 import VueRouter from 'vue-router'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+import BootstrapVue from 'bootstrap-vue'
 import App from './App.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -15,6 +17,7 @@ library.add([faPlus, faAddressCard, faMapMarkerAlt, faEnvelope, faMobileAlt, faC
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(VueRouter)
+Vue.use(VueAxios, axios)
 Vue.use(BootstrapVue)
 
 const router = new VueRouter({
