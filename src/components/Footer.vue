@@ -23,7 +23,7 @@
 
                     <div class="licence-cont"> 
                         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-                        <img class="mb-2" alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+                        <img class="mb-2" alt="Licencia Creative Commons" src="/src/assets/img/licence.png" />
                         </a>
                         <small class="licence">Este sitio está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.</small>
                     </div>

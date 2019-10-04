@@ -8,7 +8,7 @@
             </b-col>
         </b-row>
         <b-row>
-          <div class="col-md-1 col-3 d-flex align-items-center mb-5 justify-content-center" v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
+          <div class="col-4 col-md-2 col-xl-1  d-flex align-items-center mb-5 justify-content-center" v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
               <img class="tech-logo" :src="'/src/assets/img/tech-logos/'+icon.src" :alt="icon.title" />
           </div>
         </b-row>

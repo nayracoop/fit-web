@@ -84,7 +84,7 @@ h3 {
 }
 
 .fit-logo {
-    height: 60px;
+    height: 68px;
 }
 
 header {
@@ -176,7 +176,7 @@ header {
         width: 50%;
         height: 100%;
         position: absolute;
-        background: rgba(234, 234, 234, .6);
+        background: rgba(234, 234, 234, .85);
         left: 0;
         top: 0;
         border-top-right-radius: 100%;
@@ -250,6 +250,7 @@ header {
 #technologies {
     .tech-logo {
         max-height: 50px;
+        max-width: 100%;
         filter: grayscale(.95);
     }
     .logos-container {
@@ -566,7 +567,7 @@ footer {
 
 @media all and (max-width:991px) {
     .fit-logo {
-        height: 50px;
+        height: 58px;
     }
     h3 {
         font-size: 1.75rem;

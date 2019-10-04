@@ -33,9 +33,9 @@
                 </b-nav-item-dropdown>
               </b-navbar-nav>
             </b-collapse>
-            
+                        
           </b-navbar>
-    </b-col>
+        </b-col>
       </b-row>
     </b-container>
   </header>

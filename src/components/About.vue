@@ -14,7 +14,7 @@
                 <p>{{ $t('cooperativeWork.content') }}</p>
             </b-col>
             <b-col class="col-12">
-                <img src="" :alt="$t('cooperativeWork.imgAlt')" />
+                 <img class="w-100" src="" :alt="$t('cooperativeWork.imgAlt')" />
             </b-col>
         </b-row>
     </b-container>
