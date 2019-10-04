@@ -1,24 +1,35 @@
 <template>
-<section id="technologies">
+  <section id="technologies">
     <b-container>
-        <b-row>
-            <b-col class="col-12 col-md-6 section-heading">
-                <h2 class="pb-2">{{ $t('technologies.title') }}</h2>
-                <p>{{ $t('technologies.content') }}</p>
-            </b-col>
-        </b-row>
-        <b-row>
-          <div class="col-4 col-md-2 col-xl-1  d-flex align-items-center mb-5 justify-content-center" v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
-              <img class="tech-logo" :src="'/src/assets/img/tech-logos/'+icon.src" :alt="icon.title" />
-          </div>
-        </b-row>
+      <b-row>
+        <b-col class="col-12 col-md-6 section-heading">
+          <h2 class="pb-2">
+            {{ $t('technologies.title') }}
+          </h2>
+          <p>{{ $t('technologies.content') }}</p>
+        </b-col>
+      </b-row>
+      <b-row>
+        <div
+          v-for="(icon, index) in icons"
+          :key="index"
+          class="col-4 col-md-2 col-xl-1  d-flex align-items-center mb-5 justify-content-center"
+          :class="'logo-' + index"
+        >
+          <img
+            class="tech-logo"
+            :src="'static/img/tech-logos/'+icon.src"
+            :alt="icon.title"
+          >
+        </div>
+      </b-row>
     </b-container>
-        <!--div class="logos-container">
-                <div v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
-                    <img :src="'/src/assets/img/tech-logos/'+icon.src" :alt="icon.title" height="20px"/>
-                </div>
-        </div-->
-</section>
+    <!--div class="logos-container">
+      <div v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
+        <img :src="'static/img/tech-logos/'+icon.src" :alt="icon.title" height="20px"/>
+      </div>
+    </div-->
+  </section>
 </template>
 
 <script>

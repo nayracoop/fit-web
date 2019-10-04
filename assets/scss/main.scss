@@ -168,7 +168,7 @@ header {
 }
 
 #cover {
-    background-image: url('/src/assets/img/main-bg.jpg');
+    background-image: url('../static/img/main-bg.jpg');
     color: #000;
 
     &::before {
@@ -209,7 +209,7 @@ header {
             background-color: $color-blue;
         }
     }
-    background-image: url('/src/assets/img/about-bg.svg');
+    background-image: url('../static/img/about-bg.svg');
     background-size: 35%;
     background-position: 85% center;
     background-repeat: no-repeat;
@@ -249,8 +249,7 @@ header {
 
 #technologies {
     .tech-logo {
-        max-height: 50px;
-        max-width: 100%;
+        max-height: 58px;
         filter: grayscale(.95);
     }
     .logos-container {
@@ -567,7 +566,7 @@ footer {
 
 @media all and (max-width:991px) {
     .fit-logo {
-        height: 58px;
+        height: 50px;
     }
     h3 {
         font-size: 1.75rem;

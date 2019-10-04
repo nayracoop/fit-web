@@ -5,7 +5,7 @@ import en from '../translations/en.json'
 
 Vue.use(VueI18n)
 
-export const i18n = new VueI18n({
+export default new VueI18n({
   locale: 'es',
   silentTranslationWarn: true,
   fallbackLocale: 'en',

@@ -1,41 +1,80 @@
 <template>
-<footer class="text-center">
+  <footer class="text-center">
     <b-container>
-        <b-row>
-            <b-col>
-                <img src="../assets/img/logo.svg" alt="logo FIT" class="fit-logo mb-5" />
-                <nav class="mb-5">
-                    <b-navbar-nav class="m-auto">
-                        <b-nav-item href="#about">{{ $t('About FIT') }}</b-nav-item>
-                        <b-nav-item href="#services">{{ $t('Services') }}</b-nav-item>
-                        <b-nav-item href="#technologies">{{ $t('Technologies') }}</b-nav-item>
-                        <b-nav-item href="#case-studies">{{ $t('Case studies') }}</b-nav-item>
-                        <b-nav-item href="#contact">{{ $t('Contact us') }}</b-nav-item>
-                    </b-navbar-nav>
-                </nav>
-                <ul class="social-links mb-5">
-                    <li><a target="_blank" href="#" title="Facebook"><font-awesome-icon :icon="['fab', 'facebook-square']" /><span class="sr-only">Facebook</span></a></li>
-                    <li><a target="_blank" href="#" title="Instagram"><font-awesome-icon :icon="['fab', 'instagram']" /><span class="sr-only">Instagram</span></a></li>
-                    <li><a target="_blank" href="#" title="Twitter"><font-awesome-icon :icon="['fab', 'twitter']" /><span class="sr-only">Twitter</span></a></li>
-                    <!--li><a target="_blank" href="#" title="Github"><font-awesome-icon :icon="['fab', 'github']" /><span class="sr-only">Github</span></a></li-->
-                </ul>
-                    <small class="mb-5 made-with"><span>&lt;/&gt;</span> with <span>♥</span> by cooperativists</small>
+      <b-row>
+        <b-col>
+          <img
+            src="statics/img/logo.svg"
+            alt="logo FIT"
+            class="fit-logo mb-5"
+          >
+          <nav class="mb-5">
+            <b-navbar-nav class="m-auto">
+              <b-nav-item href="#about">
+                {{ $t('About FIT') }}
+              </b-nav-item>
+              <b-nav-item href="#services">
+                {{ $t('Services') }}
+              </b-nav-item>
+              <b-nav-item href="#technologies">
+                {{ $t('Technologies') }}
+              </b-nav-item>
+              <b-nav-item href="#case-studies">
+                {{ $t('Case studies') }}
+              </b-nav-item>
+              <b-nav-item href="#contact">
+                {{ $t('Contact us') }}
+              </b-nav-item>
+            </b-navbar-nav>
+          </nav>
+          <ul class="social-links mb-5">
+            <li>
+              <a
+                target="_blank"
+                href="#"
+                title="Facebook"
+              ><font-awesome-icon :icon="['fab', 'facebook-square']" /><span class="sr-only">Facebook</span></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="#"
+                title="Instagram"
+              ><font-awesome-icon :icon="['fab', 'instagram']" /><span class="sr-only">Instagram</span></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="#"
+                title="Twitter"
+              ><font-awesome-icon :icon="['fab', 'twitter']" /><span class="sr-only">Twitter</span></a>
+            </li>
+            <!--li><a target="_blank" href="#" title="Github"><font-awesome-icon :icon="['fab', 'github']" /><span class="sr-only">Github</span></a></li-->
+          </ul>
+          <small class="mb-5 made-with"><span>&lt;/&gt;</span> with <span>♥</span> by cooperativists</small>
 
-                    <div class="licence-cont"> 
-                        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-                        <img class="mb-2" alt="Licencia Creative Commons" src="/src/assets/img/licence.png" />
-                        </a>
-                        <small class="licence">Este sitio está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.</small>
-                    </div>
-            </b-col>
-        </b-row>
+          <div class="licence-cont">
+            <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/"
+            >
+              <img
+                class="mb-2"
+                alt="Licencia Creative Commons"
+                src="static/img/licence.png"
+              >
+            </a>
+            <small class="licence">Este sitio está bajo una <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/"
+            >Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.</small>
+          </div>
+        </b-col>
+      </b-row>
     </b-container>
-</footer>
+  </footer>
 </template>
 
 <script>
-
-export default {
-
-}
+export default {}
 </script>

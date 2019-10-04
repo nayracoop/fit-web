@@ -13,14 +13,14 @@
 </template>
 
 <script>
-import FitHeader from '../components/Header.vue'
-import FitAbout from '../components/About.vue'
-import FitPortfolio from '../components/Portfolio.vue'
-import FitContact from '../components/Contact.vue'
-import FitCover from '../components/Cover.vue'
-import FitFooter from '../components/Footer.vue'
-import FitServices from '../components/Services.vue'
-import FitTechnologies from '../components/Technologies.vue'
+import FitHeader from 'components/Header.vue'
+import FitAbout from 'components/About.vue'
+import FitPortfolio from 'components/Portfolio.vue'
+import FitContact from 'components/Contact.vue'
+import FitCover from 'components/Cover.vue'
+import FitFooter from 'components/Footer.vue'
+import FitServices from 'components/Services.vue'
+import FitTechnologies from 'components/Technologies.vue'
 
 export default {
   components: {
@@ -67,6 +67,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-</style>
