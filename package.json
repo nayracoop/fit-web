@@ -1,7 +1,7 @@
 {
-  "name": "vue-webpack-4",
+  "name": "@facttic/fit_website",
   "version": "1.1.0",
-  "description": "A Vuejs template using Webpack 4",
+  "description": "Fit website",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --config build/webpack.config.dev.js",
@@ -9,10 +9,12 @@
   },
   "keywords": [
     "Vue",
-    "Webpack 4"
+    "Webpack 4",
+    "FIT",
+    "Facttic"
   ],
-  "author": "Daniel Cook",
-  "license": "MIT",
+  "author": "Facttic",
+  "license": "GPL-3.0",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
@@ -55,8 +57,6 @@
     "sass": "^1.23.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
-    "stylus": "^0.54.7",
-    "stylus-loader": "^3.0.2",
     "uglify-es": "^3.3.9",
     "url-loader": "^2.1.0",
     "vue-jest": "^3.0.5",
