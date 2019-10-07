@@ -83,7 +83,7 @@
             </b-collapse>
           </b-navbar>
         </b-col>
-      <social-media />
+        <social-media />
       </b-row>
     </b-container>
   </header>
