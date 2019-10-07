@@ -23,10 +23,14 @@ const routes = [
     beforeEnter (to, from, next) {
       const locale = (!['en', 'es'].includes(to.params.lang)) ? 'es' : to.params.lang
       if (i18n.locale !== locale) {
-        i18n.locale = locale
-        document.documentElement.setAttribute('lang', locale)
-      }
-      return next()
+        import(`../translations/${locale}.json`).then(msgs => {
+          i18n.setLocaleMessage(locale, msgs)
+          i18n.locale = locale
+          document.documentElement.setAttribute('lang', locale)
+          // document.title = `Nayra - ${i18n.t('Digital development Cooperative', locale)}`
+          return next()
+        })
+      } else return next()
     }
   },
   {

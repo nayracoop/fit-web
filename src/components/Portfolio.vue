@@ -25,8 +25,8 @@
           <div class="case-details">
             <ul class="mb-3">
               <li>
-                <span class="mb-2">{{ $t('cases.Customer') }}:</span>
-                {{ $t('cases.case[0].customer') }}
+                <span class="mb-2">{{ $t('cases.Client') }}:</span>
+                {{ $t('cases.case[0].client') }}
               </li>
               <li>
                 <span class="mb-2">{{ $t('cases.Country') }}:</span>
@@ -37,11 +37,11 @@
                 {{ $t('cases.case[0].technologies[0]') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Service') }}:</span>
+                <span class="mb-2">{{ $t('cases.Services offer') }}:</span>
                 {{ $t('cases.case[0].service') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Co-ops') }}:</span>
+                <span class="mb-2">{{ $t('cases.Cooperatives involved') }}:</span>
                 {{ $t('cases.case[0].coOpsQuantity') }}
               </li>
               <li>
@@ -74,7 +74,7 @@
           <div class="case-details">
             <ul class="mb-3">
               <li>
-                <span class="mb-2">{{ $t('cases.Customer') }}:</span>
+                <span class="mb-2">{{ $t('cases.Client') }}:</span>
                 {{ $t('cases.case[2].customer') }}
               </li>
               <li>
@@ -92,11 +92,11 @@
                 {{ $t('cases.case[2].technologies[6]') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Service') }}:</span>
+                <span class="mb-2">{{ $t('cases.Services offer') }}:</span>
                 {{ $t('cases.case[2].service') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Co-ops') }}:</span>
+                <span class="mb-2">{{ $t('cases.Cooperatives involved') }}:</span>
                 {{ $t('cases.case[2].coOpsQuantity') }}
               </li>
               <li>
@@ -104,7 +104,7 @@
                 {{ $t('cases.case[2].teamSize') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Project link') }}:</span>
+                <span class="mb-2">{{ $t('cases.Link') }}:</span>
                 <a
                   target="_blank"
                   :href="$t('cases.case[2].url[0]')"
@@ -136,7 +136,7 @@
           <div class="case-details">
             <ul class="mb-3">
               <li>
-                <span class="mb-2">{{ $t('cases.Customer') }}:</span>
+                <span class="mb-2">{{ $t('cases.Client') }}:</span>
                 {{ $t('cases.case[1].customer') }}
               </li>
               <li>
@@ -152,11 +152,11 @@
                 {{ $t('cases.case[1].technologies[4]') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Service') }}:</span>
+                <span class="mb-2">{{ $t('cases.Services offer') }}:</span>
                 {{ $t('cases.case[1].service') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Co-ops') }}:</span>
+                <span class="mb-2">{{ $t('cases.Cooperatives involved') }}:</span>
                 {{ $t('cases.case[1].coOpsQuantity') }}
               </li>
               <li>
@@ -164,7 +164,7 @@
                 {{ $t('cases.case[1].teamSize') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Project link') }}:</span>
+                <span class="mb-2">{{ $t('cases.Link') }}:</span>
                 <a
                   target="_blank"
                   :href="$t('cases.case[1]')"
@@ -196,7 +196,7 @@
           <div class="case-details">
             <ul class="mb-3">
               <li>
-                <span class="mb-2">{{ $t('cases.Customer') }}:</span>
+                <span class="mb-2">{{ $t('cases.Client') }}:</span>
                 {{ $t('cases.case[3].customer') }}
               </li>
               <li>
@@ -209,11 +209,11 @@
                 {{ $t('cases.case[3].technologies[1]') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Service') }}:</span>
+                <span class="mb-2">{{ $t('cases.Services offer') }}:</span>
                 {{ $t('cases.case[3].service') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Co-ops') }}:</span>
+                <span class="mb-2">{{ $t('cases.Cooperatives involved') }}:</span>
                 {{ $t('cases.case[3].coOpsQuantity') }}
               </li>
               <li>
@@ -221,7 +221,7 @@
                 {{ $t('cases.case[3].teamSize') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Project link') }}:</span>
+                <span class="mb-2">{{ $t('cases.Link') }}:</span>
                 <a
                   target="_blank"
                   :href="$t('cases.case[3].url')"
@@ -253,8 +253,8 @@
           <div class="case-details">
             <ul class="mb-3">
               <li>
-                <span class="mb-2">{{ $t('cases.Customer') }}:</span>
-                {{ $t('cases.case[4].customer') }}
+                <span class="mb-2">{{ $t('cases.Client') }}:</span>
+                {{ $t('cases.case[4].client') }}
               </li>
               <li>
                 <span class="mb-2">{{ $t('cases.Country') }}:</span>
@@ -272,11 +272,11 @@
                 {{ $t('cases.case[4].technologies[7]') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Service') }}:</span>
+                <span class="mb-2">{{ $t('cases.Services offer') }}:</span>
                 {{ $t('cases.case[4].service') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Co-ops') }}:</span>
+                <span class="mb-2">{{ $t('cases.Cooperatives involved') }}:</span>
                 {{ $t('cases.case[4].coOpsQuantity') }}
               </li>
               <li>
@@ -284,7 +284,7 @@
                 {{ $t('cases.case[4].teamSize') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Project link') }}:</span>
+                <span class="mb-2">{{ $t('cases.Link') }}:</span>
                 <a
                   target="_blank"
                   :href="$t('cases.case[4].url')"
@@ -316,7 +316,7 @@
           <div class="case-details">
             <ul class="mb-3">
               <li>
-                <span class="mb-2">{{ $t('cases.Customer') }}:</span>
+                <span class="mb-2">{{ $t('cases.Client') }}:</span>
                 {{ $t('cases.case[5].customer') }}
               </li>
               <li>
@@ -330,11 +330,11 @@
                 {{ $t('cases.case[5].technologies[2]') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Service') }}:</span>
+                <span class="mb-2">{{ $t('cases.Services offer') }}:</span>
                 {{ $t('cases.case[5].service') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Co-ops') }}:</span>
+                <span class="mb-2">{{ $t('cases.Cooperatives involved') }}:</span>
                 {{ $t('cases.case[5].coOpsQuantity') }}
               </li>
               <li>
@@ -367,7 +367,7 @@
           <div class="case-details">
             <ul class="mb-3">
               <li>
-                <span class="mb-2">{{ $t('cases.Customer') }}:</span>
+                <span class="mb-2">{{ $t('cases.Client') }}:</span>
                 {{ $t('cases.case[6].customer') }}
               </li>
               <li>
@@ -382,11 +382,11 @@
                 {{ $t('cases.case[6].technologies[3]') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Service') }}:</span>
+                <span class="mb-2">{{ $t('cases.Services offer') }}:</span>
                 {{ $t('cases.case[6].service') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Co-ops') }}:</span>
+                <span class="mb-2">{{ $t('cases.Cooperatives involved') }}:</span>
                 {{ $t('cases.case[6].coOpsQuantity') }}
               </li>
               <li>
@@ -394,7 +394,7 @@
                 {{ $t('cases.case[6].teamSize') }}
               </li>
               <li>
-                <span class="mb-2">{{ $t('cases.Project link') }}:</span>
+                <span class="mb-2">{{ $t('cases.Link') }}:</span>
                 <a
                   target="_blank"
                   :href="$t('cases.case[6].url')"
@@ -422,7 +422,7 @@
         <b-col class="col-12 col-md-12 case-details">
           <ul class="mb-3">
             <li>
-              <span class="mb-2">{{ $t('cases.Customer') }}:</span>
+              <span class="mb-2">{{ $t('cases.Client') }}:</span>
               {{ $t('cases.case[6].customer') }}
             </li>
             <li>
@@ -438,11 +438,11 @@
               {{ $t('cases.case[6].technologies[0]') }}
             </li>
             <li>
-              <span class="mb-2">{{ $t('cases.Service') }}:</span>
+              <span class="mb-2">{{ $t('cases.Services offer') }}:</span>
               {{ $t('cases.case[6].service') }}
             </li>
             <li>
-              <span class="mb-2">{{ $t('cases.Co-ops') }}:</span>
+              <span class="mb-2">{{ $t('cases.Cooperatives involved') }}:</span>
               {{ $t('cases.case[6].coOpsQuantity') }}
             </li>
             <li>
@@ -450,7 +450,7 @@
               {{ $t('cases.case[6].teamSize') }}
             </li>
             <li>
-              <span class="mb-2">{{ $t('cases.Project link') }}:</span>
+              <span class="mb-2">{{ $t('cases.Link') }}:</span>
               <a target="_blank" :href="$t('cases.case[6].url')">{{ $t('cases.case[6].url') }}</a>
             </li>
           </ul>

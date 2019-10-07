@@ -1,7 +1,7 @@
 <template>
   <section id="about">
     <b-container>
-      <b-row>
+      <b-row class="about-info">
         <b-col class="col-12 col-md-6 mb-5">
           <h2 class="pb-2">
             {{ $t('about.title') }}
@@ -18,11 +18,7 @@
           <p>{{ $t('cooperativeWork.content') }}</p>
         </b-col>
         <b-col class="col-12">
-          <img
-            src=""
-            class="w-100"
-            :alt="$t('cooperativeWork.imgAlt')"
-          >
+          <methodology-chart class="mt-4" />
         </b-col>
       </b-row>
     </b-container>
@@ -31,7 +27,11 @@
 
 <script>
 
-export default {
+import MethodologyChart from '../components/snippets/MethodologyChart'
 
+export default {
+  components: {
+    MethodologyChart
+  }
 }
 </script>
