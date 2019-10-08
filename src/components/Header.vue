@@ -83,13 +83,20 @@
             </b-collapse>
           </b-navbar>
         </b-col>
+        <social-media />
       </b-row>
     </b-container>
   </header>
 </template>
 
 <script>
+
+import SocialMedia from 'components/snippets/SocialMedia.vue'
+
 export default {
+  components: {
+    SocialMedia
+  },
   props: {
     highlight: {
       type: String,

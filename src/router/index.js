@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import i18n from 'i18n'
+import i18n from '../plugins/i18n'
 
 import Home from 'pages/Home'
 
@@ -13,6 +13,7 @@ const routes = [
     component: Home,
     beforeEnter (to, from, next) {
       document.documentElement.setAttribute('lang', 'es')
+      i18n.locale = 'es'
       return next()
     }
   },

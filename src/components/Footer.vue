@@ -4,7 +4,7 @@
       <b-row>
         <b-col>
           <img
-            src="statics/img/logo.svg"
+            src="static/img/logo.svg"
             alt="logo FIT"
             class="fit-logo mb-5"
           >

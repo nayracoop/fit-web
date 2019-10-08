@@ -76,6 +76,21 @@ h3 {
     }
 }
 
+.social-links-fixed {
+    bottom: 5%;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 15, 27, 0.07);
+    padding: 10px;
+    background: #FFF;
+    ul {
+        margin-bottom: 0;
+        li {
+            font-size: 1.25em;
+        }
+    }
+}
 .btn {
     border-radius: 0;
     padding: .5rem 2.75rem;
@@ -83,13 +98,225 @@ h3 {
     color: #FFF;
 }
 
+.methodology-chart {
+    .cls-1 {
+        fill: $color-blue;
+    }
+
+    .cls-2 {
+        fill: $color-yellow;
+    }
+
+    .cls-3 {
+        fill: $color-magenta;
+    }
+
+    .cls-4 {
+        fill: #2d2d2d;
+    }
+
+    .cls-23,
+    .cls-5 {
+        font-size: 18px;
+        fill: #333;
+        font-family: Bitter-Bold, Bitter;
+    }
+
+    .cls-23,
+    .cls-6 {
+        font-weight: 700;
+    }
+
+    .cls-7 {
+        font-size: 16px;
+        fill: gray;
+        font-family: Montserrat-Regular, Montserrat;
+    }
+
+    .cls-8 {
+        letter-spacing: -0.02em;
+    }
+
+    .cls-9 {
+        letter-spacing: 0em;
+    }
+
+    .cls-10 {
+        letter-spacing: 0.01em;
+    }
+
+    .cls-11 {
+        letter-spacing: -0.02em;
+    }
+
+    .cls-12 {
+        letter-spacing: 0em;
+    }
+
+    .cls-13 {
+        letter-spacing: -0.01em;
+    }
+
+    .cls-14 {
+        letter-spacing: -0.01em;
+    }
+
+    .cls-15 {
+        letter-spacing: 0em;
+    }
+
+    .cls-16 {
+        letter-spacing: -0.02em;
+    }
+
+    .cls-17 {
+        letter-spacing: 0em;
+    }
+
+    .cls-18 {
+        letter-spacing: -0.01em;
+    }
+
+    .cls-19 {
+        letter-spacing: -0.01em;
+    }
+
+    .cls-20 {
+        letter-spacing: 0em;
+    }
+
+    .cls-21,
+    .cls-22 {
+        fill: none;
+    }
+
+    .cls-21 {
+        stroke: #d7d8d8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+    }
+
+    .cls-22 {
+        stroke: #333;
+        stroke-miterlimit: 10;
+    }
+}
+.methodology-chart-mob {
+    .cls-1 {
+        fill: $color-blue;
+    }
+
+    .cls-2 {
+        fill: $color-yellow;
+    }
+
+    .cls-3 {
+        fill: $color-magenta;
+    }
+
+    .cls-4 {
+        fill: #2d2d2d;
+    }
+
+    .cls-5,
+    .cls-6 {
+        fill: none;
+    }
+
+    .cls-5 {
+        stroke: #d7d8d8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+    }
+
+    .cls-6 {
+        stroke: #333;
+        stroke-miterlimit: 10;
+    }
+
+    .cls-7,
+    .cls-8 {
+        font-size: 18px;
+        fill: #333;
+        font-family: Bitter-Bold, Bitter;
+    }
+
+    .cls-7,
+    .cls-9 {
+        font-weight: 700;
+    }
+
+    .cls-10 {
+        font-size: 16px;
+        fill: gray;
+        font-family: Montserrat-Regular, Montserrat;
+    }
+
+    .cls-11 {
+        letter-spacing: -0.01em;
+    }
+
+    .cls-12 {
+        letter-spacing: -0.01em;
+    }
+
+    .cls-13 {
+        letter-spacing: 0em;
+    }
+
+    .cls-14 {
+        letter-spacing: 0em;
+    }
+
+    .cls-15 {
+        letter-spacing: -0.02em;
+    }
+
+    .cls-16 {
+        letter-spacing: 0em;
+    }
+
+    .cls-17 {
+        letter-spacing: 0.01em;
+    }
+
+    .cls-18 {
+        letter-spacing: -0.02em;
+    }
+
+    .cls-19 {
+        letter-spacing: -0.01em;
+    }
+
+    .cls-20 {
+        letter-spacing: -0.02em;
+    }
+
+    .cls-21 {
+        letter-spacing: -0.02em;
+    }
+
+    .cls-22 {
+        letter-spacing: 0em;
+    }
+}
+
+
 .fit-logo {
     height: 68px;
 }
 
 header {
     transition: background-color .3s ease-in-out;
-
+    .social-links-fixed {
+        right: -40px;
+        transition: right .3s ease-in-out;
+        @media all and (max-width: 620px) {
+            display: none;    
+        }
+    }
     &.scrolled {
         background: white;
         box-shadow: 1px 1px 3px 1px rgba(128, 128, 128, 0.1);
@@ -113,6 +340,9 @@ header {
                     }
                 }
             }
+        }
+        .social-links-fixed {
+            right: 0;
         }
     }
     nav {
@@ -209,10 +439,13 @@ header {
             background-color: $color-blue;
         }
     }
-    background-image: url('../static/img/about-bg.svg');
-    background-size: 35%;
-    background-position: 85% center;
-    background-repeat: no-repeat;
+    .about-info {
+        background-image: url('../static/img/about-bg.svg');
+        background-size: 40%;
+        background-position: top right;
+        background-repeat: no-repeat;
+        padding-bottom: 65px;
+    }
 }
 
 #services {
@@ -526,6 +759,16 @@ footer {
     }
 }
 
+
+@media all and (min-width: 451px) and (max-width:767px) {
+   
+    /*.methodology-chart-mob {
+        width: 60%;
+    }*/
+
+}
+
+
 @media all and (max-width:768px) {
     #cover {        
         &::before { 
@@ -533,8 +776,21 @@ footer {
         }
     }
 
+    .methodology-chart { 
+        display: none;
+    }
+    
+    .methodology-chart-mob {
+        //width: 80%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+
     #about {
-        background-image: none;
+        .about-info {
+            background-image: none;
+        }
     }
     
     #case-studies {
@@ -561,6 +817,12 @@ footer {
                 }
             }
         }
+    }
+}
+
+@media all and (min-width: 769px) {
+    .methodology-chart-mob {
+        display: none;
     }
 }
 

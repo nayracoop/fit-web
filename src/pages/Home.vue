@@ -1,14 +1,13 @@
 <template>
   <div id="wrapper">
-      <fit-header ref="header" :highlight="currentSection" :class="{ scrolled }"></fit-header>
-      <fit-cover ref="cover"></fit-cover>
-      <fit-about ref="about"></fit-about>
-      <fit-services ref="services"></fit-services>
-      <fit-technologies ref="technologies"></fit-technologies>
-      <fit-portfolio ref="case-studies"></fit-portfolio>
-      <fit-contact ref="contact"></fit-contact>
+      <fit-header ref="header" :highlight="currentSection" :class="{ scrolled }" />
+      <fit-cover ref="cover" />
+      <fit-about ref="about" />
+      <fit-services ref="services" />
+      <fit-technologies ref="technologies" />
+      <fit-portfolio ref="case-studies" />
+      <fit-contact ref="contact" />
       <fit-footer></fit-footer>
-      <b-container></b-container>
   </div>
 </template>
 

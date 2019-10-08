@@ -95,14 +95,14 @@
     "cases": {
         "title": "Casos de éxito",
         "content": "Bajada sección casos de éxito",
-        "Customer": "Cliente",
+        "Client": "Cliente",
         "Area": "Area",
         "Country": "País",
         "Technologies": "Tecnologías",
-        "Co-ops": "Cooperativas involucradas",
+        "Cooperatives involved": "Cooperativas involucradas",
         "Team size": "Trabajadores involucrados",
-        "Service": "Servicio ofrecido",
-        "Project link": "Link del proyecto",
+        "Services offer": "Servicios ofrecidos",
+        "Link": "Link del proyecto",
         "Description": "Descripción",
         "case": [
             {
