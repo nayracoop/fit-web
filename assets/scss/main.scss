@@ -570,16 +570,18 @@ footer {
         font-size: 1.65rem;
     }
     #cover {
-        h2 {
-            padding-top: 60px;
-            font-size: 1.85rem;
-        }
-        p {
-            font-size: .925rem;
-        }
-        .btn {
-            font-size: 1rem;
-            padding: .5rem 2.75rem;
+        .cover-info {
+            h2 {
+                padding-top: 60px;
+                font-size: 1.85rem;
+            }
+            p {
+                font-size: .925rem;
+            }
+            .btn {
+                font-size: 1rem;
+                padding: .5rem 2.75rem;
+            }
         }
     }
 

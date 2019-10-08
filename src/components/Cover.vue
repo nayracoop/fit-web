@@ -12,7 +12,7 @@
           <p class="mb-4">
             {{ $t('cover.content') }}
           </p>
-          <b-button href="#">
+          <b-button href="#contact">
             {{ $t('cover.btn-text') }}
           </b-button>
         </b-col>
