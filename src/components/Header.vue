@@ -79,11 +79,11 @@
                     {{ lang }}
                   </b-dropdown-item>
                 </b-nav-item-dropdown>
+                <social-media />
               </b-navbar-nav>
             </b-collapse>
           </b-navbar>
         </b-col>
-      <social-media />
       </b-row>
     </b-container>
   </header>
