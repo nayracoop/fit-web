@@ -7,24 +7,21 @@
     "about": {
         "title": "Acerca del FIT",
         "content": [
-            "El FIT es un espacio de la Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento (FACTTIC).",
+            "El FIT es un espacio intercooperativo de trabajo que pertenece a la Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento (FACTTIC). FACTTIC está conformada por empresas cooperativas dedicadas a brindar soluciones informáticas.",
             "FACTTIC está conformado por empresas cooperativas que se dedican a brindar soluciones informáticas.",
-            "Somos personas trabajadoras y dueñas de nuestras empresas, queremos innovación, compromiso, calidad y un mundo donde las tecnologías sean cooperativas.",
-            "Creamos tecnología para un futuro inclusivo. "
+            "Somos personas trabajadoras, dueñas de nuestras empresas, y comprometidas con la innovación y la calidad.",
+            "Creamos tecnología para un futuro inclusivo."
         ]
     },
     "cooperativeWork": {
         "title": "¿Cómo trabajamos?",
-        "content": "Generamos un espacio de trabajo intercooperativo donde ofrecemos a nuestros clientes desarrollos con posibilidades de escalar gracias a nuestra fuerza de trabajo colectiva.",
-        "imgAlt": "Grafico de metodología de trabajo"
+        "content": "Como espacio intercooperativo, recibimos el pedido, lo evaluamos en función de las  necesidades y del potencial del equipo, y entregamos la propuesta que mejor atienda sus requerimientos."
     },
     "services": {
         "title": "Servicios",
-        "content": "Bajada sección servicios",
         "service": [
             {
                 "title": "Capacitación y consultoría",
-                "imgAlt": "alt icono 1",
                 "subservice": [
                     "Project managment",
                     "Data science",
@@ -38,7 +35,6 @@
             },
             {
                 "title": "Diseño y comunicación",
-                "imgAlt": "alt icono 2",
                 "subservice": [
                     "UX",
                     "UI",
@@ -60,7 +56,6 @@
             },
             {
                 "title": "Desarrollo",
-                "imgAlt": "alt icono 3",
                 "subservice": [
                     "Project managment",
                     "Mantenimiento web",
@@ -78,7 +73,6 @@
             },
             {
                 "title": "Infraestructura",
-                "imgAlt": "alt icono 4",
                 "subservice": [
                     "Integraciones hardware y software",
                     "Cableados estructurados",
@@ -89,12 +83,10 @@
         ]
     },
     "technologies": {
-        "title": "Tecnologías",
-        "content": "Bajada sección tecnologías"
+        "title": "Tecnologías"
     },
     "cases": {
         "title": "Casos de éxito",
-        "content": "Bajada sección casos de éxito",
         "Client": "Cliente",
         "Area": "Area",
         "Country": "País",
@@ -190,8 +182,12 @@
         ]
     },
     "contact": {
-        "title": "Contacto",
-        "content": "Bajada sección contacto"
+        "title": "Contacto"
+    },
+    "footer": {
+        "signature": "<span>&lt;/&gt;</span> con <span>♥</span> por cooperativistas",
+        "licence": "El contenido de este sitio se distribuye bajo una licencia",
+        "licenceLinkTitle": "Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)"
     },
     "Open": "Abrir",
     "About FIT": "Acerca del FIT",

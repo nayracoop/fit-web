@@ -26,7 +26,7 @@
             <ul class="mb-3">
               <li>
                 <span class="mb-2">{{ $t('cases.Client') }}:</span>
-                {{ $t('cases.case[0].client') }}
+                {{ $t('cases.case[0].customer') }}
               </li>
               <li>
                 <span class="mb-2">{{ $t('cases.Country') }}:</span>
@@ -67,7 +67,7 @@
           >
             {{ $t('cases.case[2].title') }}
           </h3>
-          <span class="project-service">{{ $t('cases.case[2].area') }}:</span>
+          <span class="project-service">{{ $t('cases.case[2].area') }}</span>
           <p class="project-description">
             {{ $t('cases.case[2].description') }}
           </p>
@@ -254,7 +254,7 @@
             <ul class="mb-3">
               <li>
                 <span class="mb-2">{{ $t('cases.Client') }}:</span>
-                {{ $t('cases.case[4].client') }}
+                {{ $t('cases.case[4].customer') }}
               </li>
               <li>
                 <span class="mb-2">{{ $t('cases.Country') }}:</span>

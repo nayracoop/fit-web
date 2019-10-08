@@ -88,7 +88,7 @@ export default {
         },
         {
           title: 'Vue Native',
-          src: 'nativescript.svg'
+          src: 'vuenative.svg'
         },
         {
           title: 'Bootstrap',

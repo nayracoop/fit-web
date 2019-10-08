@@ -51,7 +51,7 @@
             </li>
             <!--li><a target="_blank" href="#" title="Github"><font-awesome-icon :icon="['fab', 'github']" /><span class="sr-only">Github</span></a></li-->
           </ul>
-          <small class="mb-5 made-with"><span>&lt;/&gt;</span> with <span>♥</span> by cooperativists</small>
+          <small class="mb-5 made-with" v-html="$t('footer.signature')"></small>
 
           <div class="licence-cont">
             <a
@@ -64,10 +64,7 @@
                 src="static/img/licence.png"
               >
             </a>
-            <small class="licence">Este sitio está bajo una <a
-              rel="license"
-              href="http://creativecommons.org/licenses/by-sa/4.0/"
-            >Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.</small>
+            <small class="licence">{{ $t('footer.licence') }} <a href="http://creativecommons.org/licenses/by-sa/4.0/">{{ $t('footer.licenceLinkTitle') }}</a>.</small>
           </div>
         </b-col>
       </b-row>
