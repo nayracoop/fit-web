@@ -167,7 +167,7 @@
                 <span class="mb-2">{{ $t('cases.Link') }}:</span>
                 <a
                   target="_blank"
-                  :href="$t('cases.case[1]')"
+                  :href="$t('cases.case[1].url')"
                 >{{ $t('cases.case[1].url') }}</a>
               </li>
             </ul>
