@@ -175,6 +175,14 @@ header {
 
             &.cta-item {
                 color: white;
+
+                &.active {
+                    .nav-link {
+                        background: #000!important;
+                        color: #FFF;
+                        border: 1px solid #000;
+                    }
+                }
                 a.nav-link {
                     border: 1px solid white;
                     background: transparent;
@@ -574,6 +582,7 @@ footer {
             li {
                 margin: 0 15px;
                 a {
+                    display: inline-block;
                     border-bottom: 1px solid transparent;
                     &:hover {
                         color: #000;
@@ -584,6 +593,9 @@ footer {
         }
     }
 
+    .social-links li {
+        margin: 0 18px!important;
+    }
     small {
         display: block;
 
@@ -698,7 +710,7 @@ footer {
                 flex-direction: column;
 
                 li {
-                    margin: 0 15px;
+                    margin: 10px 15px;
                 }
             }
         }
