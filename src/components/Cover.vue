@@ -21,21 +21,21 @@
             <li>
               <a
                 target="_blank"
-                href="#"
+                href="https://www.facebook.com/facttic/"
                 title="Facebook"
               ><font-awesome-icon :icon="['fab', 'facebook-square']" /><span class="sr-only">Facebook</span></a>
             </li>
             <li>
               <a
                 target="_blank"
-                href="#"
+                href="https://www.instagram.com/facttic.ar/"
                 title="Instagram"
               ><font-awesome-icon :icon="['fab', 'instagram']" /><span class="sr-only">Instagram</span></a>
             </li>
             <li>
               <a
                 target="_blank"
-                href="#"
+                href="https://twitter.com/facttic"
                 title="Twitter"
               ><font-awesome-icon :icon="['fab', 'twitter']" /><span class="sr-only">Twitter</span></a>
             </li>

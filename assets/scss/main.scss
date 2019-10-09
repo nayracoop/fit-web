@@ -72,6 +72,9 @@ h3 {
 
         a {
             color: #000;
+            &:hover {
+                color: $color-indigo;
+            }
         }
     }
 }
@@ -88,6 +91,9 @@ h3 {
         margin-bottom: 0;
         li {
             font-size: 1.25em;
+            a:hover {
+                color: $color-indigo;
+            }
         }
     }
 }
@@ -99,7 +105,7 @@ h3 {
 }
 
 .fit-logo {
-    height: 68px;
+    height: 65px;
 }
 
 header {
@@ -173,6 +179,7 @@ header {
                     border: 1px solid white;
                     background: transparent;
                     padding: .5rem 1rem;
+                    transition: all .15s ease-in-out;
                     &:hover {
                         background: white;
                         color: #000;
@@ -194,15 +201,43 @@ header {
                     border-bottom: 1px solid #000;   
                 }
             }
-            &:last-of-type {
-                margin-bottom: 25px!important;
-            }
         }
         li.lang-selector {
             text-transform: uppercase;
-
+            a {
+                border-color: #FFF!important;
+                @media all and (max-width: 991px) {
+                    border: 0!important;
+                    a:hover {
+                        border: 0!important;
+                    }
+                }
+            }
             ul.dropdown-menu {
                 min-width: unset;
+                max-width: 60px;
+
+                li {
+                    text-align: center;
+                    a {
+                        padding: 3px 15px;
+                        &:active {
+                            background: unset;
+                            color: unset;
+                        }
+                    }
+                }
+            }
+            @media all and (max-width: 991px) {
+                a {
+                    padding: 0 12px 0 0;
+                    font-size: 1.25rem;
+                }
+                min-height: 105px;
+                border: 0!important;
+                a:hover {
+                    border: 0!important;
+                }
             }
         }
     }
@@ -426,6 +461,12 @@ header {
                                 //border-bottom: 1px solid #d5a239;
                                 font-weight: 600;
                             }
+                            a {
+                                text-decoration: underline;
+                                &:hover {
+                                    color: $color-indigo;
+                                }
+                            }
                         }
                     }
                 }
@@ -568,6 +609,9 @@ footer {
     }
 }
 @media all and (max-width: 450px) {
+    .nav-item {
+        margin-bottom: 10px!important;
+    }
     h2 {
         font-size: 2rem;
     }
@@ -696,6 +740,10 @@ footer {
                             color: #000;
                             border-bottom: 1px solid #000;
                         }
+                    }
+
+                    &:last-of-type {
+                        margin-bottom: 25px!important;
                     }
 
                     &.cta-item {

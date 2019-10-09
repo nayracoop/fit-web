@@ -7,8 +7,8 @@
     "about": {
         "title": "Acerca del FIT",
         "content": [
-            "El FIT es un espacio intercooperativo de trabajo que pertenece a la Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento (FACTTIC). FACTTIC está conformada por empresas cooperativas dedicadas a brindar soluciones informáticas.",
-            "FACTTIC está conformado por empresas cooperativas que se dedican a brindar soluciones informáticas.",
+            "El FIT es un espacio intercooperativo de trabajo que pertenece a la Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento (FACTTIC).",
+            "FACTTIC está conformada por empresas cooperativas dedicadas a brindar soluciones informáticas.",
             "Somos personas trabajadoras, dueñas de nuestras empresas, y comprometidas con la innovación y la calidad.",
             "Creamos tecnología para un futuro inclusivo."
         ]
@@ -125,7 +125,7 @@
                 "customer": "Betterez Inc.",
                 "area": "Reservations & ticketing platform",
                 "country": "Canadá",
-                "url": ["betterez.com", "demo.betterez.com"],
+                "url": ["https://www.betterez.com", "https://demo.betterez.com"],
                 "description": "Desarrollo desde hace más de 5 años de la aplicación web que ha crecido en decenas de microservicios, API Rest y mobile apps.",
                 "service": "Equipo de desarrollo y  manejo de recursos permanente",
                 "technologies": ["Node.js", "Elixir", "VueJS", "MongoDB", "PostgreSQL", "Docker", "Redis", "AWS"],
@@ -149,7 +149,7 @@
                 "customer": "Backstory",
                 "area": "Agencia de publicidad",
                 "country": "Argentina",
-                "url": "https://www.backstory.com.ar",
+                "url": "http://www.backstory.com.ar",
                 "description": "Desarrollo, mantenimiento y administración de infraestructura.",
                 "service": "Desarrollo, mantenimiento e infraestructura",
                 "technologies": ["AWS", "GNU/Linux", "EC2", "Cloud WebServers: entornos en Nginx", "Apache", "Node.js (PM2)", "Load Balance", "RDS"],

@@ -31,25 +31,24 @@
             <li>
               <a
                 target="_blank"
-                href="#"
+                href="https://www.facebook.com/facttic/"
                 title="Facebook"
               ><font-awesome-icon :icon="['fab', 'facebook-square']" /><span class="sr-only">Facebook</span></a>
             </li>
             <li>
               <a
                 target="_blank"
-                href="#"
+                href="https://www.instagram.com/facttic.ar/"
                 title="Instagram"
               ><font-awesome-icon :icon="['fab', 'instagram']" /><span class="sr-only">Instagram</span></a>
             </li>
             <li>
               <a
                 target="_blank"
-                href="#"
+                href="https://twitter.com/facttic"
                 title="Twitter"
               ><font-awesome-icon :icon="['fab', 'twitter']" /><span class="sr-only">Twitter</span></a>
             </li>
-            <!--li><a target="_blank" href="#" title="Github"><font-awesome-icon :icon="['fab', 'github']" /><span class="sr-only">Github</span></a></li-->
           </ul>
           <small class="mb-5 made-with" v-html="$t('footer.signature')"></small>
 
