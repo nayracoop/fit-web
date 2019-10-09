@@ -115,7 +115,7 @@
                 "url": "https://www.aquiles.com.ar",
                 "description": "Development and maintenance of electronic billing web system.",
                 "service": "Development and maintenance",
-                "technologies": ["Phyton / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
+                "technologies": ["Python / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
                 "coOpsQuantity": "2",
                 "teamSize": "4"
             },

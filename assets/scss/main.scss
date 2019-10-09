@@ -108,7 +108,7 @@ header {
         right: -40px;
         transition: right .3s ease-in-out;
         @media all and (max-width: 991px) {
-            position: static;
+            position: static!important;
             display: block;
             box-shadow: none;
             margin: 0 auto;
@@ -145,7 +145,7 @@ header {
                             color: #fff;
                         }
                     }
-                }
+                }                
             }
         }
         .social-links-fixed {
@@ -193,6 +193,9 @@ header {
                 .nav-link {
                     border-bottom: 1px solid #000;   
                 }
+            }
+            &:last-of-type {
+                margin-bottom: 25px!important;
             }
         }
         li.lang-selector {
@@ -315,6 +318,8 @@ header {
     }
     .tech-logo {
         max-height: 58px;
+        max-width: 100%;
+        width: auto;
         //filter: grayscale(.95);
     }
     .logos-container {

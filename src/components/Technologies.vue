@@ -25,7 +25,7 @@
       </b-row>
     </b-container>
     <!--div class="logos-container">
-      <div v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
+      <div v-for="(icon, index) in icons" v-bind:key  ="index" v-bind:class="'logo-' + index">
         <img :src="'static/img/tech-logos/'+icon.src" :alt="icon.title" height="20px"/>
       </div>
     </div-->
