@@ -8,6 +8,7 @@
           </h2>
           <p>{{ $t('about.content[0]') }}</p>
           <p>{{ $t('about.content[1]') }}</p>
+          <p>{{ $t('about.content[2]') }}</p>
         </b-col>
       </b-row>
       <b-row class="cooperative-work">

@@ -7,67 +7,63 @@
     "about": {
         "title": "About FIT",
         "content": [
-            "We are hard working people and owners of our companies, we want innovation, commintment, quality and a world where the technology is cooperative.",
+            "FIT is a intercooperative work space that belongs to the Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge (FACTTIC). FACTTIC formed by cooperatives companies dedicated to provided IT solutions.",
+            "We're hardworking people, owner of our companies and commited with innovation and quality.",
             "We create technology for an inclusive future."
         ]
     },
     "cooperativeWork": {
-        "title": "Cooperative work",
-        "content": "we generate a space of intercooperative work where we offer to our clients development with possibilities of grow thanks to our colective force of work.",
-        "imgAlt": "Work methodology chart"
+        "title": "How we work?",
+        "content": "As a intercooperative space we received the request, we evaluated in order of the needs and the potencial of the team and then we delivered a propasal that meets best the requirements."
     },
     "services": {
         "title": "Services",
-        "content": "Bajada sección servicios",
         "service": [
             {
-                "title": "Capacitación y consultoría",
-                "imgAlt": "alt icono 1",
+                "title": "Training and Consultancy",
                 "subservice": [
-                    "Project managment",
+                    "Project management ",
                     "Data science",
-                    "Soluciones integrales de business intelligence",
-                    "Aseguramiento de la calidad",
-                    "Consultoría tecnológica",
-                    "Capacitaciones docentes",
-                    "Cursos de programación",
-                    "Talleres de tecnología creativa"
+                    "Solutions of business intelligence",
+                    "Quality assurance",
+                    "Technological consultancy ",
+                    "Teacher training",
+                    "Courses of programming",
+                    "Workshop of creative technology"
                 ]
             },
             {
-                "title": "Diseño y comunicación",
-                "imgAlt": "alt icono 2",
+                "title": "Design and communication",
                 "subservice": [
                     "UX",
                     "UI",
-                    "Diseño web",
-                    "Diseño interactivo",
-                    "Diseño editorial",
-                    "Diseño gráfico",
+                    "Web design",
+                    "Interactive design",
+                    "Editorial design",
+                    "Graphic design",
                     "Branding",
-                    "Preproducción, producción y postproducción audiovisual",
+                    "Preproduction, production and postproduction audiovisual ",
                     "Motion graphics",
-                    "Arte digital",
-                    "Fotografía",
-                    "Ilustraciones",
-                    "Comunicación digital",
-                    "Creación de contenido y corrección de estilo",
-                    "Impresiones generales",
+                    "Digital Art",
+                    "Photography",
+                    "Illustration",
+                    "Digital Communication",
+                    "Creation of content and correction of style",
+                    "General printing",
                     "VDP"
                 ]
             },
             {
-                "title": "Desarrollo",
-                "imgAlt": "alt icono 3",
+                "title": "Development",
                 "subservice": [
-                    "Project managment",
-                    "Mantenimiento web",
-                    "Desarrollo de software a medida",
-                    "Desarrollo web y mobile",
-                    "Realidad virtual",
-                    "Realidad aumentada",
+                    "Project management",
+                    "Web support",
+                    "Development of custom software",
+                    "Web and mobile development",
+                    "Virtual reality",
+                    "Enhance reality",
                     "E-commerce",
-                    "Implementación y desarrollo ERP",
+                    "Development and implementacion ERP",
                     "CRM",
                     "CMS",
                     "IoT",
@@ -75,24 +71,21 @@
                 ]
             },
             {
-                "title": "Infraestructura",
-                "imgAlt": "alt icono 4",
+                "title": "Infrastructure",
                 "subservice": [
-                    "Integraciones hardware y software",
-                    "Cableados estructurados",
-                    "Administración de servidores",
-                    "Infraestructura como código"
+                    "Software and hardware integration",
+                    "Structure wiring",
+                    "Administration of servers",
+                    "Infrastructure as code"
                 ]
             }
         ]
     },
     "technologies": {
-        "title": "Technologies",
-        "content": "Bajada sección tecnologías"
+        "title": "Technologies"
     },
     "cases": {
         "title": "Case studies",
-        "content": "Bajada sección casos de éxito",
         "Client": "Client",
         "Area": "Area",
         "Country": "Country",
@@ -105,42 +98,42 @@
         "case": [
             {
                 "title": "Shopper Trolley",
-                "client": "Inventor group",
+                "customer": "Inventor group",
                 "area": "Commerce",
                 "country": "Australia",
                 "description": "Development of a Mockup of a mobile app (Android + iOS) for Client loyalty. Trhough it, you scan a QR code of the products and you obtain rewards or benefits.",
-                "service": "Custome development mobile",
+                "service": "Custom development mobile",
                 "technologies": ["React native"],
                 "coOpsQuantity": "2",
                 "teamSize": "4"
             },
             {
                 "title": "Aquiles",
-                "client": "Own product",
+                "customer": "Own product",
                 "area": "Electronic billing",
                 "country": "Argentina",
                 "url": "https://www.aquiles.com.ar",
                 "description": "Development and maintenance of electronic billing web system.",
                 "service": "Development and maintenance",
-                "technologies": ["Phyton / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
+                "technologies": ["Python / Django WebPack", "JavaScript", "HTML", "CSS", "Bootstrap"],
                 "coOpsQuantity": "2",
                 "teamSize": "4"
             },
             {
                 "title": "Betterez",
-                "client": "Betterez Inc.",
+                "customer": "Betterez Inc.",
                 "area": "Reservations & ticketing platform",
                 "country": "Canadá",
                 "url": ["betterez.com", "demo.betterez.com"],
                 "description": "For more than 5 years it has been development the web application that has grown a dozens of microservices, API Rest and mobile apps.",
-                "service": "Equipo de desarrollo y  manejo de recursos permanente",
+                "service": "Development team and resource management",
                 "technologies": ["Node.js", "Elixir", "VueJS", "MongoDB", "PostgreSQL", "Docker", "Redis", "AWS"],
                 "coOpsQuantity": "7",
                 "teamSize": "20"
             },
             {
                 "title": "ADC. Web de accesibilidad",
-                "client": "Asociación por los Derechos Civiles",
+                "customer": "Asociación por los Derechos Civiles",
                 "area": "Civil Rights, public politics investigation",
                 "country": "Argentina",
                 "url": "http://accesibilidad-digital.adc.org.ar/",
@@ -152,8 +145,8 @@
             },
             {
                 "title": "AWS",
-                "client": "Backstory",
-                "area": "Agencia de publicidad",
+                "customer": "Backstory",
+                "area": "Advertising agency",
                 "country": "Argentina",
                 "url": "https://www.backstory.com.ar",
                 "description": "Development, maintenance and administración of infraestructure.",
@@ -164,23 +157,23 @@
             },
             {
                 "title": "PSA",
-                "client": "PSA - Industrias Pugliese S. A.",
+                "customer": "PSA - Industrias Pugliese S. A.",
                 "area": "Water purifiers",
                 "country": "Latin America",
-                "description": "Desarrollo de una aplicación chat similar a WhatsApp con soporte web, Android y iOS.",
-                "service": "Equipo de desarrollo y mantenimiento permanente",
+                "description": "Development of chat application similar to Whatsapp with web, Android and iOS support.",
+                "service": "Development team and permanent maintenance",
                  "technologies": ["Python", "Elixir", "Ionic"],
                 "coOpsQuantity": "2",
                 "teamSize": "4"
             },
             {
                 "title": "Receptiviti",
-                "client": "Receptiviti",
+                "customer": "Receptiviti",
                 "area": "Neurolinguistic analisys of organization through artificial inteligence",
                 "country": "Canadá",
                 "url": "https://www.receptiviti.com",
                 "description": "Development of a web to analyze and display the results of the neurolinguistic analisys of the organizations.",
-                "service": "Equipo de desarrollo y manejo de recursos",
+                "service": "Development team and resource management",
                 "technologies": ["Python", "React", "Docker", "AWS"],
                 "coOpsQuantity": "2",
                 "teamSize": "5"
@@ -188,7 +181,11 @@
         ]
     },
     "contact": {
-        "title": "Contacto",
-        "content": "Bajada sección contacto"
+        "title": "Contact"
+    },
+    "footer": {
+        "signature": "<span>&lt;/&gt;</span> with <span>♥</span> by cooperativists",
+        "licence": "Content on this site is licensed under a ",
+        "licenceLinkTitle": "Creative Commons Attribution-ShareAlike 4.0 International license"
     }
 }

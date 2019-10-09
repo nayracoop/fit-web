@@ -5,14 +5,14 @@
   >
     <b-container>
       <b-row class="min-vh-100 w-100">
-        <b-col class="col-12 col-md-6 mt-auto">
+        <b-col class="col-12 col-md-6 mt-auto cover-info">
           <h2 class="mb-4">
             {{ $t('cover.title') }}
           </h2>
           <p class="mb-4">
             {{ $t('cover.content') }}
           </p>
-          <b-button href="#">
+          <b-button href="#contact">
             {{ $t('cover.btn-text') }}
           </b-button>
         </b-col>

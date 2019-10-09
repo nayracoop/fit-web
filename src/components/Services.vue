@@ -11,11 +11,12 @@
       </b-row>
       <b-row>
         <b-col class="col-12 col-md-6 service mb-4 mt-4">
-          <img
+          <design-icon class="mb-4" />
+          <!--img
             src="static/img/design.svg"
             :alt="$t('services.service[1].imgAlt')"
             class="mb-4"
-          >
+          -->
           <h3 class="mb-3">
             {{ $t('services.service[1].title') }}
           </h3>
@@ -38,11 +39,12 @@
           </ul>
         </b-col>
         <b-col class="col-12 col-md-6 service mb-4 mt-4">
-          <img
+          <development-icon class="mb-4" />
+          <!--img
             src="static/img/development.svg"
             :alt="$t('services.service[2].imgAlt')"
             class="mb-4"
-          >
+          -->
           <h3 class="mb-3">
             {{ $t('services.service[2].title') }}
           </h3>
@@ -62,11 +64,12 @@
           </ul>
         </b-col>
         <b-col class="col-12 col-md-6 service mb-4 mt-4">
-          <img
+          <consultory-icon class="mb-4" />
+          <!--img
             src="static/img/consultory.svg"
             :alt="$t('services.service[0].imgAlt')"
             class="mb-4"
-          >
+          -->
           <h3 class="mb-3">
             {{ $t('services.service[0].title') }}
           </h3>
@@ -82,11 +85,12 @@
           </ul>
         </b-col>
         <b-col class="col-12 col-md-6 service mb-4 mt-4">
-          <img
+          <infrastructure-icon class="mb-4" />
+          <!--img
             src="static/img/infrastructure.svg"
             :alt="$t('services.service[3].imgAlt')"
             class="mb-4"
-          >
+          -->
           <h3 class="mb-3">
             {{ $t('services.service[3].title') }}
           </h3>
@@ -103,8 +107,17 @@
 </template>
 
 <script>
+import ConsultoryIcon from '../components/snippets/ConsultoryIcon'
+import DesignIcon from '../components/snippets/DesignIcon'
+import DevelopmentIcon from '../components/snippets/DevelopmentIcon'
+import InfrastructureIcon from '../components/snippets/InfrastructureIcon'
 
 export default {
-
+  components: {
+    ConsultoryIcon,
+    DesignIcon,
+    DevelopmentIcon,
+    InfrastructureIcon
+  }
 }
 </script>

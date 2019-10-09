@@ -25,7 +25,7 @@
       </b-row>
     </b-container>
     <!--div class="logos-container">
-      <div v-for="(icon, index) in icons" v-bind:key="index" v-bind:class="'logo-' + index">
+      <div v-for="(icon, index) in icons" v-bind:key  ="index" v-bind:class="'logo-' + index">
         <img :src="'static/img/tech-logos/'+icon.src" :alt="icon.title" height="20px"/>
       </div>
     </div-->
@@ -39,171 +39,175 @@ export default {
     return {
       icons: [
         {
-          title: '',
-          src: 'angular-icon.svg'
-        },
-        {
-          title: '',
-          src: 'nodejs.svg'
-        },
-        {
-          title: '',
-          src: 'nativescript.svg'
-        },
-        {
-          title: '',
-          src: 'react.svg'
-        },
-        {
-          title: '',
-          src: 'ionic.svg'
-        },
-        {
-          title: '',
-          src: 'mongodb.svg'
-        },
-        {
-          title: '',
-          src: 'django.svg'
-        },
-        {
-          title: '',
-          src: 'aws.svg'
-        },
-        {
-          title: '',
+          title: 'Express',
           src: 'express.svg'
         },
         {
-          title: '',
-          src: 'drupal.svg'
+          title: 'Ionic',
+          src: 'ionic.svg'
         },
         {
-          title: '',
-          src: 'elixir.png'
+          title: 'Django',
+          src: 'django.svg'
         },
         {
-          title: '',
+          title: 'Python',
           src: 'python.svg'
         },
         {
-          title: '',
+          title: 'React',
+          src: 'react.svg'
+        },
+        {
+          title: 'Angular',
+          src: 'angular-icon.svg'
+        },
+        {
+          title: 'Node.js',
+          src: 'nodejs.svg'
+        },
+        {
+          title: 'Drupal',
+          src: 'drupal.svg'
+        },
+        {
+          title: 'Vue js',
+          src: 'vuejs.svg'
+        },
+        {
+          title: 'Elixir',
+          src: 'elixir.png'
+        },
+        {
+          title: 'Amazon web services',
+          src: 'aws.svg'
+        },
+        {
+          title: 'MongoDB',
+          src: 'mongodb.svg'
+        },
+        {
+          title: 'Vue Native',
+          src: 'vuenative.svg'
+        },
+        {
+          title: 'Bootstrap',
           src: 'bootstrap.svg'
         },
         {
-          title: '',
+          title: 'Celery',
           src: 'celery.png'
         },
         {
-          title: '',
+          title: 'CSS3',
           src: 'css3.svg'
         },
         {
-          title: '',
+          title: 'Docker',
           src: 'docker.svg'
         },
         {
-          title: '',
-          src: 'feathers.png'
+          title: 'Feathers',
+          src: 'feathers.svg'
         },
         {
-          title: '',
+          title: 'Firebird',
           src: 'firebird.svg'
         },
         {
-          title: '',
+          title: 'Java',
           src: 'java.svg'
         },
         {
-          title: '',
+          title: 'Grunt',
           src: 'grunt.svg'
         },
         {
-          title: '',
+          title: 'Heroku',
           src: 'heroku.svg'
         },
         {
-          title: '',
+          title: 'html5',
           src: 'html5.svg'
         },
         {
-          title: '',
+          title: 'Kubernetes',
           src: 'kubernetes.svg'
         },
         {
-          title: '',
+          title: 'Laravel',
           src: 'laravel.svg'
         },
         {
-          title: '',
+          title: 'mysql',
           src: 'mysql.svg'
         },
         {
-          title: '',
+          title: 'Net',
           src: 'net.png'
         },
         {
-          title: '',
+          title: 'php',
           src: 'php.svg'
         },
         {
-          title: '',
+          title: 'Postgresql',
           src: 'postgresql.svg'
         },
         {
-          title: '',
+          title: 'Redis',
           src: 'redis.svg'
         },
         {
-          title: '',
+          title: 'Sass',
           src: 'sass.svg'
         },
         {
-          title: '',
+          title: 'shopify',
           src: 'shopify.svg'
         },
         {
-          title: '',
+          title: 'sparkar',
           src: 'sparkar.png'
         },
         {
-          title: '',
+          title: 'suitecrm',
           src: 'suitecrm.png'
         },
         {
-          title: '',
+          title: 'symfony',
           src: 'symfony.svg'
         },
         {
-          title: '',
+          title: 'threejs',
           src: 'threejs.png'
         },
         {
-          title: '',
+          title: 'tryton',
           src: 'tryton.svg'
         },
         {
-          title: '',
+          title: 'ui5',
           src: 'ui5.svg'
         },
         {
-          title: '',
+          title: 'unity',
           src: 'unity.svg'
         },
         {
-          title: '',
+          title: 'wordpress',
           src: 'wordpress.svg'
         },
         {
-          title: '',
+          title: 'Android studio',
           src: 'android-studio.svg'
         },
         {
-          title: '',
+          title: 'apache',
           src: 'apache.svg'
         },
         {
-          title: '',
+          title: 'arduino',
           src: 'arduino.svg'
         }
       ]
