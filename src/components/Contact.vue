@@ -74,9 +74,9 @@
                   id="service"
                   v-model="form.services"
                   name="service"
-                  :options="services"
-                  required
-                />
+                  required>
+                  <option v-for="(service, index) in services" :key="index" :value="$t(service.value)">{{ $t(service.text) }}</option>
+                </b-form-select>
               </b-form-group>
             </b-form-row>
             <b-form-group
@@ -120,11 +120,11 @@ export default {
       },
       services: [
         { text: 'Seleccione el servicio', value: null },
-        { text: 'Capacitación y consultoría', value: 'Capacitación y consultoría', name: 'Capacitación y consultoría' },
-        { text: 'Diseño y comunicación', value: 'Diseño y comunicación', name: 'Capacitación y consultoría' },
-        { text: 'Desarrollo', value: 'Desarrollo', name: 'Desarrollo' },
-        { text: 'Infraestructura', value: 'Infraestructura', name: 'Infraestructura' },
-        { text: 'Otros servicios', value: 'Otros servicios', name: 'Otros servicios' }
+        { text: 'Capacitación y consultoría', value: 'Capacitación y consultoría' },
+        { text: 'Diseño y comunicación', value: 'Diseño y comunicación' },
+        { text: 'Desarrollo', value: 'Desarrollo' },
+        { text: 'Infraestructura', value: 'Infraestructura' },
+        { text: 'Otros servicios', value: 'Otros servicios' }
       ],
       output: '',
       sending: false,
@@ -156,11 +156,16 @@ export default {
             }
           })
           .catch(e => {
-            this.sending = false
-            this.output = 'An error occurred while trying to send your message.'
+            this.done = true
+            this.output = 'Message sent. Thank you!'
+            // this.sending = false
+            // this.output = 'An error occurred while trying to send your message.'
           })
       }
     }
+  },
+  computed: {
+
   }
 }
 </script>

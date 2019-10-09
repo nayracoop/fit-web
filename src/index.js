@@ -20,7 +20,7 @@ Vue.use(VueAxios, axios)
 Vue.use(BootstrapVue)
 
 new Vue({
-  router,
   render: h => h(App),
+  router,
   i18n
 }).$mount('#app')
