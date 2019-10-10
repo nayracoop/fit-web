@@ -9,9 +9,7 @@
           <h2 class="mb-4">
             {{ $t('cover.title') }}
           </h2>
-          <p class="mb-4">
-            {{ $t('cover.content') }}
-          </p>
+          <p class="mb-4" v-html="$t('cover.content')"></p>
           <b-button href="#contact">
             {{ $t('cover.btn-text') }}
           </b-button>
