@@ -7,7 +7,8 @@
     "about": {
         "title": "About FIT",
         "content": [
-            "FIT is a intercooperative work space that belongs to the Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge (FACTTIC). FACTTIC formed by cooperatives companies dedicated to provided IT solutions.",
+            "<abbr title='Flujo Intercooperativo de Trabajo'>FIT</abbr> is a intercooperative work space that belongs to the Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge (<abbr title='Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento'>FACTTIC</abbr>).",
+            "<a href='#'><abbr title='Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento'>FACTTIC</abbr></a> formed by cooperatives companies dedicated to provided IT solutions.",
             "We're hardworking people, owner of our companies and commited with innovation and quality.",
             "We create technology for an inclusive future."
         ]

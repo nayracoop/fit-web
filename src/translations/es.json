@@ -7,8 +7,8 @@
     "about": {
         "title": "Acerca del FIT",
         "content": [
-            "El FIT es un espacio intercooperativo de trabajo que pertenece a la Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento (FACTTIC).",
-            "FACTTIC está conformada por empresas cooperativas dedicadas a brindar soluciones informáticas.",
+            "El <abbr title='Flujo Intercooperativo de Trabajo'>FIT</abbr> es un espacio intercooperativo de trabajo que pertenece a la Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento (<abbr title='Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento'>FACTTIC</abbr>).",
+            "<a href='#'><abbr title='Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento'>FACTTIC</abbr></a> está conformada por empresas cooperativas dedicadas a brindar soluciones informáticas.",
             "Somos personas trabajadoras, dueñas de nuestras empresas, y comprometidas con la innovación y la calidad.",
             "Creamos tecnología para un futuro inclusivo."
         ]
