@@ -5,12 +5,12 @@ body {
     height: 100%;
     //background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
     background: #fff;
-    color: #000;
+    color: $color-dark;
     font-family: 'Montserrat', sans-serif;
 }
 
 body a {
-    color: black;
+    color: $color-dark;
 }
 
 h1,
@@ -71,7 +71,7 @@ h3 {
         font-size: 1.25em;
 
         a {
-            color: #000;
+            color: $color-dark;
             &:hover {
                 color: $color-indigo;
             }
@@ -100,7 +100,7 @@ h3 {
 .btn {
     border-radius: 0;
     padding: .5rem 2.75rem;
-    background: #000;
+    background: $color-dark;
     color: #FFF;
 }
 
@@ -136,18 +136,18 @@ header {
         .navbar-nav {
             li.nav-item {
                 a.nav-link {
-                    color: #000;
+                    color: $color-dark;
                     &:hover {
-                        border-bottom: 1px solid #000;
-                        color: #000;
+                        border-bottom: 1px solid $color-dark;
+                        color: $color-dark;
                     }
                 }
                 &.cta-item {
                     a.nav-link {
-                        border: 1px solid black;
+                        border: 1px solid $color-dark;
                         background: transparent;
                         &:hover {
-                            background: #000;
+                            background: $color-dark;
                             color: #fff;
                         }
                     }
@@ -178,9 +178,9 @@ header {
 
                 &.active {
                     .nav-link {
-                        background: #000!important;
+                        background: $color-dark!important;
                         color: #FFF;
-                        border: 1px solid #000;
+                        border: 1px solid $color-dark;
                     }
                 }
                 a.nav-link {
@@ -190,7 +190,7 @@ header {
                     transition: all .15s ease-in-out;
                     &:hover {
                         background: white;
-                        color: #000;
+                        color: $color-dark;
                     }
                 }
             }
@@ -206,7 +206,7 @@ header {
 
             &.active {
                 .nav-link {
-                    border-bottom: 1px solid #000;   
+                    border-bottom: 1px solid $color-dark;   
                 }
             }
         }
@@ -254,7 +254,7 @@ header {
 #cover {
     background-image: url('../static/img/main-bg.jpg');
     background-size: cover;
-    color: #000;
+    color: $color-dark;
     position: relative;
     overflow: hidden;
     .cover-info {
@@ -268,7 +268,7 @@ header {
         .btn {
             font-size: 1.125rem;
             padding: .75rem 2.75rem;
-            border: #000;
+            border: $color-dark;
         }
         * {
             position: relative;
@@ -549,7 +549,7 @@ header {
         input,
         textarea,
         select {
-            border-color: black;
+            border-color: $color-dark;
             border-radius: 0;
             min-height: 3.25rem;
 
@@ -585,8 +585,8 @@ footer {
                     display: inline-block;
                     border-bottom: 1px solid transparent;
                     &:hover {
-                        color: #000;
-                        border-bottom: 1px solid #000;
+                        color: $color-dark;
+                        border-bottom: 1px solid $color-dark;
                     }
                 }
             }
@@ -601,7 +601,7 @@ footer {
 
         &.made-with {
             span:first-of-type {
-                color: black;
+                color: $color-dark;
             }
 
             span:last-of-type {
@@ -745,12 +745,12 @@ footer {
                     margin: 0;
 
                     a.nav-link {
-                        color: #000;
+                        color: $color-dark;
                         font-size: 1.25rem;
                         border-bottom: 1px solid transparent;
                         &:hover {
-                            color: #000;
-                            border-bottom: 1px solid #000;
+                            color: $color-dark;
+                            border-bottom: 1px solid $color-dark;
                         }
                     }
 
@@ -760,11 +760,11 @@ footer {
 
                     &.cta-item {
                         border: none;
-                        color: black;
+                        color: $color-dark;
                         a.nav-link {
                             background: transparent;
                             padding: .5rem 1rem;
-                            border: 1px solid #000;
+                            border: 1px solid $color-dark;
                         }
                     }
                 }
