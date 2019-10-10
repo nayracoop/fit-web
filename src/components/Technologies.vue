@@ -92,7 +92,7 @@ export default {
         },
         {
           title: 'html5',
-          src: 'html5_.svg'
+          src: 'html5.svg'
         },
         {
           title: 'CSS3',
