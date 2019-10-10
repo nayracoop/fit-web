@@ -38,6 +38,7 @@ const routes = [
 
 export default new Router({
   mode: 'history',
+  base: '/fit/',
   routes,
   scrollBehavior (to, from, savedPosition) {
     return false

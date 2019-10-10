@@ -63,21 +63,15 @@
                 >
                   {{ $t('Contact us') }}
                 </b-nav-item>
-                <b-nav-item-dropdown
-                  class="lang-selector"
-                  :text="$i18n.locale"
-                  right
-                >
+
+                <b-nav-item-dropdown class="lang-selector" :text="$i18n.locale" right>
                   <b-dropdown-item
                     v-for="(lang, i) in langs"
+                    :to="'/' + ((lang === 'es') ? '' : lang)"
                     :key="`Lang${i}`"
-                    href="#"
                     :class="{ 'sr-only': (lang === $i18n.locale) }"
                     :value="lang"
-                    @click.prevent="setLocale(lang)"
-                  >
-                    {{ lang }}
-                  </b-dropdown-item>
+                  >{{ lang }}</b-dropdown-item>
                 </b-nav-item-dropdown>
                 <social-media />
               </b-navbar-nav>
@@ -105,14 +99,6 @@ export default {
   },
   data () {
     return { langs: ['es', 'en'] }
-  },
-  methods: {
-    setLocale (lang) {
-      if (lang === 'es') {
-        this.$router.push({ name: 'main' })
-        this.$i18n.locale = lang
-      } else this.$router.push({ name: 'locale', params: { lang } })
-    }
   }
 }
 </script>

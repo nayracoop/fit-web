@@ -75,7 +75,7 @@
                   v-model="form.services"
                   name="service"
                   required>
-                  <option v-for="(service, index) in services" :key="index" :value="$t(service.value)">{{ $t(service.text) }}</option>
+                  <option v-for="(service, index) in services" :selected="index === 0" :key="index" :value="$t(service.value)">{{ $t(service.text) }}</option>
                 </b-form-select>
               </b-form-group>
             </b-form-row>
@@ -119,12 +119,12 @@ export default {
         message: ''
       },
       services: [
-        { text: 'Seleccione el servicio', value: null },
-        { text: 'Capacitación y consultoría', value: 'Capacitación y consultoría' },
-        { text: 'Diseño y comunicación', value: 'Diseño y comunicación' },
-        { text: 'Desarrollo', value: 'Desarrollo' },
-        { text: 'Infraestructura', value: 'Infraestructura' },
-        { text: 'Otros servicios', value: 'Otros servicios' }
+        { text: 'Select service', value: null },
+        { text: 'Training and Consultancy', value: 'Training and Consultancy' },
+        { text: 'Design and communication', value: 'Design and communication' },
+        { text: 'Development', value: 'Development' },
+        { text: 'Infrastructure', value: 'Infrastructure' },
+        { text: 'Other services', value: 'Other services' }
       ],
       output: '',
       sending: false,

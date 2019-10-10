@@ -209,5 +209,11 @@
     "FIT": "Flujo Intercooperativo de Trabajo",
     "Message sent. Thank you!": "Mensaje enviado. ¡Muchas gracias!",
     "An error occurred while trying to send your message.": "Ocurrió un error al intentar enviar su mensaje.",
-    "Error sending message": "Error al enviar el mensaje"
+    "Error sending message": "Error al enviar el mensaje",
+    "Select service": "Seleccione el servicio",
+    "Training and Consultancy": "Capacitación y consultoría",
+    "Design and communication": "Diseño y comunicación",
+    "Development": "Desarrollo",
+    "Infrastructure": "Infraestructura",
+    "Other services": "Otros servicios"
 }
