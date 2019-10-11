@@ -1,5 +1,5 @@
 <template>
-  <section id="services">
+  <section id="services" class="bg-grey">
     <b-container>
       <b-row>
         <b-col class="col-12 col-md-6 section-heading">
@@ -12,11 +12,6 @@
       <b-row>
         <b-col class="col-12 col-md-6 service mb-4 mt-4">
           <design-icon class="mb-4" />
-          <!--img
-            src="static/img/design.svg"
-            :alt="$t('services.service[1].imgAlt')"
-            class="mb-4"
-          -->
           <h3 class="mb-3">
             {{ $t('services.service[1].title') }}
           </h3>
@@ -40,11 +35,6 @@
         </b-col>
         <b-col class="col-12 col-md-6 service mb-4 mt-4">
           <development-icon class="mb-4" />
-          <!--img
-            src="static/img/development.svg"
-            :alt="$t('services.service[2].imgAlt')"
-            class="mb-4"
-          -->
           <h3 class="mb-3">
             {{ $t('services.service[2].title') }}
           </h3>
@@ -65,11 +55,6 @@
         </b-col>
         <b-col class="col-12 col-md-6 service mb-4 mt-4">
           <consultory-icon class="mb-4" />
-          <!--img
-            src="static/img/consultory.svg"
-            :alt="$t('services.service[0].imgAlt')"
-            class="mb-4"
-          -->
           <h3 class="mb-3">
             {{ $t('services.service[0].title') }}
           </h3>
@@ -86,11 +71,6 @@
         </b-col>
         <b-col class="col-12 col-md-6 service mb-4 mt-4">
           <infrastructure-icon class="mb-4" />
-          <!--img
-            src="static/img/infrastructure.svg"
-            :alt="$t('services.service[3].imgAlt')"
-            class="mb-4"
-          -->
           <h3 class="mb-3">
             {{ $t('services.service[3].title') }}
           </h3>

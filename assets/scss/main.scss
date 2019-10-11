@@ -3,7 +3,6 @@
 body {
     width: 100%;
     height: 100%;
-    //background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
     background: #fff;
     color: $color-dark;
     font-family: 'Montserrat', sans-serif;
@@ -47,7 +46,9 @@ h3 {
     padding-bottom: 90px;
     border-bottom: 1px solid rgba(211, 211, 211, 0.3);
 }
-
+.bg-grey {
+    background: rgba(244, 244, 244, 0.3);
+}
 .section-heading {
     margin-bottom: 50px;
     h2 {
@@ -257,6 +258,7 @@ header {
 #cover {
     background-image: url('../static/img/main-bg.jpg');
     background-size: cover;
+    background-attachment: fixed;
     color: $color-dark;
     position: relative;
     overflow: hidden;
@@ -287,13 +289,11 @@ header {
             height: 1080px;
             z-index: 0;
             background: rgba(234, 234, 234, .85);
+            //background-color: rgba(220, 217, 212, .85); 
+            background-image: linear-gradient(to bottom, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.20) 50%);
+            background-blend-mode: soft-light,screen;
             border-top-right-radius: 100%;
             border-bottom-right-radius: 100%;
-            /*
-            width: 50%;
-            height: 100%;
-            left: 0;
-            top: 0;*/
         }
     }
 }
@@ -366,50 +366,6 @@ header {
         max-height: 58px;
         max-width: 100%;
         width: auto;
-        //filter: grayscale(.95);
-    }
-    .logos-container {
-        //background: #ededed;
-        overflow: hidden;
-        width: 100%;
-        height: 450px;
-        position: relative;
-        margin-left: 0;
-
-        div {
-            background: transparent;
-            position: absolute;
-            //animation: movelogoX 5s linear infinite;
-            height: 65px;
-            width: 65px;
-            border-radius: 100%;
-            background: white;
-            box-shadow: 1px 1px 15px 1px rgba(29, 41, 78, 0.38);
-            pointer-events: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            padding: 10px;
-
-            img {
-                width: 100%;
-                height: auto;
-                //animation: movelogoY 3s linear infinite;     
-                max-height: 40px;
-            }
-        }
-
-        @for $i from 1 through 42 {
-            $t: 10+random(30);
-
-            .logo-#{$i} {
-                top: ($i * 2%);
-                position: absolute;
-                animation: movelogoX #{$t}s linear infinite;
-                animation-delay: -#{random(20*1000) / 1000}s;
-            }
-        }
     }
 }
 
@@ -417,7 +373,6 @@ header {
     .section-heading {
         h2 {
             &::after {
-                //background: $color-yellow;
                 background: $color-indigo;
             }
         }
@@ -427,6 +382,7 @@ header {
             box-shadow: 1px 1px 5px 1px rgba(0, 15, 27, 0.07);
             border-radius: 5px;
             border: 1px solid #d3d3d34d;
+            background: #FFF;
             padding: 0;
             display: flex;
             box-shadow:0 3px 7px -1px rgba(0, 0, 0, 0.1);
@@ -469,7 +425,6 @@ header {
                             span {
                                 font-size: 14px;
                                 margin-right: 2px;
-                                //border-bottom: 1px solid #d5a239;
                                 font-weight: 600;
                             }
                             a {
@@ -491,53 +446,11 @@ header {
                     width: 100%;
                     max-height: 420px;
                     object-fit: none;
-                    //filter: grayscale(1);
                     border-top-right-radius: 5px;
                     border-bottom-right-radius: 5px;
                 }
             }
         }
-    
-   /* .project {
-        padding-top: 25px;
-        padding-bottom: 25px;
-        h3 {
-            display: inline-block;
-        }
-        //border-bottom: 1px dashed lightgrey;
-        &:last-of-type() {
-            border-bottom: none;
-        }
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 1rem;
-            li{ 
-                flex-basis: calc(25% - 15px);
-                display: flex;
-                flex-direction: column;
-                margin-bottom: 15px;
-                position: relative;
-                padding-left: 15px;
-                margin-right: 15px;
-                
-                &::before {
-                    content: '';
-                    width: 5px;
-                    height: 5px;
-                    background: $color-yellow;
-                    position: absolute;
-                    border-radius: 5px;
-                    top: 12px;
-                    left: 0;
-                }
-                span {
-                    font-weight: 600;
-                    font-size: 1.15rem;
-                }
-            }
-        }
-    }*/
 }
 
 #contact {
@@ -561,14 +474,18 @@ header {
                 font-size: 95%;
             }
         }
-
+        select {
+            background-image: none;
+        }
         small {
             font-size: 65%;
             color: #fff;
         }
-
-        button[type="submit"] {
-            float: right;
+        .form-output {
+            display: block;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #6056a5;
         }
     }
 }
@@ -634,6 +551,7 @@ footer {
         font-size: 1.65rem;
     }
     #cover {
+        background-attachment: scroll;
         .cover-info {
             h2 {
                 padding-top: 60px;
@@ -649,29 +567,12 @@ footer {
         }
     }
 
-    #contact {
-        .btn {
-            width: 100%;
-            padding: 1rem;
-        }
-    }
-}
-
-
-@media all and (min-width: 768px) and (max-width: 991px) {
-
-   
-    /*.methodology-chart-mob {
-        width: 60%;
-    }*/
-
 }
 
 
 @media all and (max-width:768px) {
     #cover {        
         &::before { 
-            //width: 90%;
             right: 10%;
         }
     }
@@ -681,7 +582,6 @@ footer {
     }
     
     .methodology-chart-mob {
-        //width: 80%;
         max-width: 300px;
         margin: 0 auto;
         display: block;
@@ -707,6 +607,13 @@ footer {
         }
     }
 
+    #contact {
+        .btn {
+            width: 100%;
+            padding: 1rem;
+        }
+    }
+    
     footer {
         nav {
             ul.navbar-nav {
@@ -1014,29 +921,4 @@ footer {
 #consultory-icon,
 #development-icon {
     enable-background:new 0 0 80 80;
-}
-
-
-@keyframes movelogoX {
-    0% {
-        right: -50px;
-    }
-
-    100% {
-        right: 100%;
-    }
-}
-
-@keyframes movelogoY {
-    0% {
-        transform: translateY(-30%);
-    }
-
-    50% {
-        transform: translateY(30%);
-    }
-
-    100% {
-        transform: translateY(-30%);
-    }
 }

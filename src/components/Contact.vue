@@ -92,13 +92,13 @@
               />
             </b-form-group>
 
+            <span class="form-output">{{ $t(output) }}</span>
             <b-button
               type="submit"
-              class="mt-4 btn"
+              class="mt-4 btn d-flex justify-content-center ml-auto"
             >
               {{ $t('Send') }}
             </b-button>
-            <span id="messages">{{ $t(output) }}</span>
           </b-form>
         </b-col>
       </b-row>
@@ -144,7 +144,7 @@ export default {
         this.sending = true
 
         this.$http
-          .post('/send.php', formData)
+          .post('/fit/send.php', formData)
           .then(response => {
             this.sending = false
             console.log(response)

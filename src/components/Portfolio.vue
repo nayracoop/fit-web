@@ -1,5 +1,5 @@
 <template>
-  <section id="case-studies">
+  <section id="case-studies" class="bg-grey">
     <b-container>
       <b-row>
         <b-col class="col-12 col-md-6 section-heading">

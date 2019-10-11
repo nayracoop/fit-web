@@ -37,7 +37,6 @@
                 title="Twitter"
               ><font-awesome-icon :icon="['fab', 'twitter']" /><span class="sr-only">Twitter</span></a>
             </li>
-            <!--li><a target="_blank" href="#" title="Github"><font-awesome-icon :icon="['fab', 'github']" /><span class="sr-only">Github</span></a></li-->
           </ul>
         </b-col>
       </b-row>
