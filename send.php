@@ -6,7 +6,7 @@ if(!isset($_POST["email"]) || $_POST["email"] == "") die('{ "enviado":false, "me
 if(!isset($_POST["service"]) || $_POST["service"] == "") die('{ "enviado":false, "mensaje":"Por favor, seleccione un servicio" }');
 if(!isset($_POST["message"]) || $_POST["message"] == "") die('{ "enviado":false, "mensaje":"Por favor, ingrese su mensaje" }');
 
-$to = "tobias.irigoyen@nayra.coop";
+$to = "info@facttic.org.ar";
 
 $name = $_POST["name"];
 $companyName = $_POST["companyName"];
