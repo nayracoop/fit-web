@@ -361,9 +361,7 @@
             {{ $t('cases.case[6].title') }}
           </h3>
           <span class="project-service">{{ $t('cases.case[6].area') }}</span>
-          <p class="project-description">
-            {{ $t('cases.case[6].description') }}
-          </p>
+          <p class="project-description" v-html="$t('cases.case[6].description')"></p>
           <div class="case-details">
             <ul class="mb-3">
               <li>
@@ -410,52 +408,6 @@
           >
         </b-col>
       </b-row>
-
-      <!--b-row class="mb-4 project">
-        <b-col class="col-12 col-md-8 mb-2">
-          <h3 class="mt-3 mb-3">{{ $t('cases.case[6].title') }}</h3>
-          <p>{{ $t('cases.case[6].description') }}</p>
-        </b-col>
-        <b-col class="col-12 col-md-4">
-          <img src :alt="$t('cases.case[0].imgAlt')" class="w-100" />
-        </b-col>
-        <b-col class="col-12 col-md-12 case-details">
-          <ul class="mb-3">
-            <li>
-              <span class="mb-2">{{ $t('cases.Client') }}:</span>
-              {{ $t('cases.case[6].customer') }}
-            </li>
-            <li>
-              <span class="mb-2">{{ $t('cases.Area') }}:</span>
-              {{ $t('cases.case[6].area') }}
-            </li>
-            <li>
-              <span class="mb-2">{{ $t('cases.Country') }}:</span>
-              {{ $t('cases.case[6].country') }}
-            </li>
-            <li>
-              <span class="mb-2">{{ $t('cases.Technologies') }}:</span>
-              {{ $t('cases.case[6].technologies[0]') }}
-            </li>
-            <li>
-              <span class="mb-2">{{ $t('cases.Services offer') }}:</span>
-              {{ $t('cases.case[6].service') }}
-            </li>
-            <li>
-              <span class="mb-2">{{ $t('cases.Cooperatives involved') }}:</span>
-              {{ $t('cases.case[6].coOpsQuantity') }}
-            </li>
-            <li>
-              <span class="mb-2">{{ $t('cases.Team size') }}:</span>
-              {{ $t('cases.case[6].teamSize') }}
-            </li>
-            <li>
-              <span class="mb-2">{{ $t('cases.Link') }}:</span>
-              <a target="_blank" :href="$t('cases.case[6].url')">{{ $t('cases.case[6].url') }}</a>
-            </li>
-          </ul>
-        </b-col>
-      </b-row-->
     </b-container>
   </section>
 </template>
