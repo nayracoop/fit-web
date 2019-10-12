@@ -745,7 +745,7 @@ footer {
     }
 }
 
-@media all and (orientation: landscape) and (max-height: 500px) and (max-width: 991px) {
+@media all and (max-height: 500px) and (max-width: 991px), all and (orientation: landscape) and (max-height: 500px) and (max-width: 991px)  {
     header nav 
     { 
         #nav-collapse{ 
@@ -773,7 +773,7 @@ footer {
         }
     }
 }
-@media all and (orientation: landscape) and (max-height: 800px) {
+@media all and (max-height: 800px) {
     #cover {
         .cover-info {
             padding-top: 110px!important
