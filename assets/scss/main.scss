@@ -248,7 +248,7 @@ header {
                     padding: 0 12px 0 0;
                     font-size: 1.25rem;
                 }
-                min-height: 105px;
+                margin-bottom: 60px;
                 border: 0!important;
                 a:hover {
                     border: 0!important;
@@ -558,7 +558,7 @@ footer {
         background-attachment: scroll;
         .cover-info {
             h2 {
-                padding-top: 60px;
+                //padding-top: 60px;
                 font-size: 1.85rem;
             }
             p {
@@ -681,6 +681,26 @@ footer {
                             border: 1px solid $color-dark;
                         }
                     }
+                    
+                    &.lang-selector {
+                        display: flex;
+                        .dropdown-toggle::after {
+                            transform: rotate(-90deg)
+                        }
+                        ul {
+                            border: 0;
+                            padding: .5rem;
+                            margin: 0;
+                            margin-left: 15px;
+                            li {
+                                margin: 0;
+                                a {
+                                    color: grey;
+                                    padding: 0;
+                                }
+                            }
+                       }
+                    }
                 }
             }
         }
@@ -697,6 +717,15 @@ footer {
         }
         }
     }
+
+    #cover {        
+        .cover-info {
+            &::before { 
+                right: -30px!important;
+            }
+        }
+    }
+
     #services {
         .service {
             .service-icon {
@@ -715,6 +744,43 @@ footer {
         }
     }
 }
+
+@media all and (orientation: landscape) and (max-height: 500px) and (max-width: 991px) {
+    header nav 
+    { 
+        #nav-collapse{ 
+            ul.navbar-nav {
+                height: 85vh;
+                overflow: scroll;
+                margin-top: 0!important;
+                padding-top: 130px!important;
+                padding-bottom: 10px;
+                justify-content: center;
+                li.nav-item {
+                    margin: 5px 0!important;
+                    a.nav-link {
+                        //font-size: 1rem;
+                    }
+                    &.nav-item:last-of-type {
+                        min-height: unset;
+                        margin-bottom: 5px!important;
+                    }
+                }
+                .social-links-fixed {
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media all and (orientation: landscape) and (max-height: 800px) {
+    #cover {
+        .cover-info {
+            padding-top: 110px!important
+        }
+    }
+}
+
 
 
 .methodology-chart {

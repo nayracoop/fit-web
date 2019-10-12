@@ -15,7 +15,7 @@
           </b-button>
         </b-col>
         <b-col class="col-12 mt-auto">
-          <ul class="social-links">
+          <ul class="social-links mt-4">
             <li>
               <a
                 target="_blank"
