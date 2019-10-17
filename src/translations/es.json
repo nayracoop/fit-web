@@ -173,7 +173,7 @@
                 "area": "Análisis neurolingüístico de organizaciones a través de inteligencia artificial",
                 "country": "Canadá",
                 "url": "https://www.receptiviti.com",
-                "description": "Desarrollo de una web para analizar y visualizar los resultados del análisis neurolingüístico de las organizaciones.",
+                "description": "Desarrollo de una web para analizar y visualizar los resultados del <i>análisis neurolingüístico</i> de las organizaciones.",
                 "service": "Equipo de desarrollo y manejo de recursos",
                 "technologies": ["Python", "React", "Docker", "AWS"],
                 "coOpsQuantity": "2",

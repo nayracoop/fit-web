@@ -1,21 +1,21 @@
 {
     "cover": {
-        "title": "Cooperative Technology for the innovation",
-        "content": "We are the <abbr title='Information and communications technology'>ICTs</abbr> cooperative and we want to make technology with a new work model and new social economics and solidarities relationships.",
+        "title": "Cooperative Technology for innovation",
+        "content": "We are the <abbr title='Information and communications technology'>ICT</abbr> cooperatives and our aim is to produce technology with an innovative working model, taking into consideration the economic and social relationships.",
         "btn-text": "Contact us"
     },
     "about": {
         "title": "About FIT",
         "content": [
-            "<abbr title='Flujo Intercooperativo de Trabajo'>FIT</abbr> is a intercooperative work space that belongs to the Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge (<abbr title='Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge'>FACTTIC</abbr>).",
-            "<a href='#'><abbr title='Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge'>FACTTIC</abbr></a> formed by cooperatives companies dedicated to provided IT solutions.",
-            "We're hardworking people, owner of our companies and commited with innovation and quality.",
+            "<abbr title='Flujo Intercooperativo de Trabajo'>FIT</abbr> is an intercooperative work space that belongs to the Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge (<abbr title='Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge'>FACTTIC</abbr>)",
+            "<a href='#'><abbr title='Argentinean Federation of Work Cooperatives of Technologies, Innovation and Knowledge'>FACTTIC</abbr></a> is formed by cooperative companies focused on providing <abbr title='Information Technology'>IT</abbr> solutions",
+            "We're owners of our companies, hardworking and committed to innovation and quality.",
             "We create technology for an inclusive future."
         ]
     },
     "cooperativeWork": {
-        "title": "How we work?",
-        "content": "As a intercooperative space we received the request, we evaluated in order of the needs and the potencial of the team and then we delivered a propasal that meets best the requirements."
+        "title": "How we work",
+        "content": "As an inter-cooperative space we receive the request, evaluate it, and deliver a proposal that meets the requirements."
     },
     "services": {
         "title": "Services",
@@ -25,12 +25,12 @@
                 "subservice": [
                     "Project management ",
                     "Data science",
-                    "Solutions of business intelligence",
+                    "Business Intelligence solutions",
                     "Quality assurance",
-                    "Technological consultancy ",
+                    "Technological consulting",
                     "Teacher training",
-                    "Courses of programming",
-                    "Workshop of creative technology"
+                    "Programming courses",
+                    "Creative technologies workshop"
                 ]
             },
             {
@@ -43,13 +43,13 @@
                     "Editorial design",
                     "Graphic design",
                     "Branding",
-                    "Preproduction, production and postproduction audiovisual ",
+                    "Audiovisual production",
                     "Motion graphics",
-                    "Digital Art",
+                    "Digital art",
                     "Photography",
                     "Illustration",
-                    "Digital Communication",
-                    "Creation of content and correction of style",
+                    "Digital communication",
+                    "Content creation and style correction",
                     "General printing",
                     "VDP"
                 ]
@@ -59,12 +59,12 @@
                 "subservice": [
                     "Project management",
                     "Web support",
-                    "Development of custom software",
+                    "Custom software development.",
                     "Web and mobile development",
                     "Virtual reality",
-                    "Enhance reality",
+                    "Augmented reality",
                     "E-commerce",
-                    "Development and implementacion ERP",
+                    "ERP",
                     "CRM",
                     "CMS",
                     "IoT",
@@ -76,7 +76,7 @@
                 "subservice": [
                     "Software and hardware integration",
                     "Structure wiring",
-                    "Administration of servers",
+                    "Servers administration",
                     "Infrastructure as code"
                 ]
             }
@@ -102,7 +102,7 @@
                 "customer": "Inventor group",
                 "area": "Commerce",
                 "country": "Australia",
-                "description": "Development of a Mockup of a mobile app (Android + iOS) for Client loyalty. Trhough it, you scan a QR code of the products and you obtain rewards or benefits.",
+                "description": "Development of a mobile app Mockup (Android + iOS) to enhance costumer loyalty. It allows the public target to scan the product QR Code and obtain rewards or benefits.",
                 "service": "Custom development mobile",
                 "technologies": ["React native"],
                 "coOpsQuantity": "2",
@@ -126,7 +126,7 @@
                 "area": "Reservations & ticketing platform",
                 "country": "Canadá",
                 "url": ["https://www.betterez.com", "https://demo.betterez.com"],
-                "description": "For more than 5 years it has been development the web application that has grown a dozens of microservices, API Rest and mobile apps.",
+                "description": "For more than 5 years, there has been an inter-cooperative work to develop this project which has produced micro services, API Rest and mobile apps.",
                 "service": "Development team and resource management",
                 "technologies": ["Node.js", "Elixir", "VueJS", "MongoDB", "PostgreSQL", "Docker", "Redis", "AWS"],
                 "coOpsQuantity": "7",
@@ -138,7 +138,7 @@
                 "area": "Civil Rights, public politics investigation",
                 "country": "Argentina",
                 "url": "http://accesibilidad-digital.adc.org.ar/",
-                "description": "Website to raise awareness of the importance of development application of technological tools that safeguard the right to a full automony and a citizen and social inclusion of people with disabilities.",
+                "description": "The website was created to raise awareness of the importance to develop technological tools in order to safeguard the disabled citizens' right to obtain autonomy and social inclusion.",
                 "service": "Design and development",
                 "technologies": ["HTML5", "Bootstrap"],
                 "coOpsQuantity": "2",
@@ -173,7 +173,7 @@
                 "area": "Neurolinguistic analisys of organization through artificial inteligence",
                 "country": "Canadá",
                 "url": "https://www.receptiviti.com",
-                "description": "Development of a web to analyze and display the results of the neurolinguistic analisys of the organizations.",
+                "description": "Development of an application to obtain the <i>culture analytics</i> of the organizations.",
                 "service": "Development team and resource management",
                 "technologies": ["Python", "React", "Docker", "AWS"],
                 "coOpsQuantity": "2",
