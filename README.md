@@ -2,7 +2,7 @@
 
 Sitio web del FIT Flujo Intercooperativo de Trabajo desarrollado en Vue.js. 
 
-:sparkles: El sitio se encuentra disponible en **http://facttic.org.ar/fit/** :sparkles: 
+:point_right: El sitio se encuentra disponible en **http://facttic.org.ar/fit/** :point_left: 
 
 ## Instalación
 
